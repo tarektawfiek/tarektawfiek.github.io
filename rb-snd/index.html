@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Red Bananas × SND 96 — Tarek Tawfiek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Red Bananas × Saudi National Day 96, «كل إنجاز نحققه… بداية لإنجاز أكبر»: a National Day film from Saudi heritage and character to today's achievements and the agency's role in telling them. Case study by Tarek Tawfiek, Senior Art Director.">
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash)addEventListener("DOMContentLoaded",function(){scrollTo({top:0,left:0,behavior:"instant"})});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Noto+Kufi+Arabic:wght@500;800&display=swap">
+<link rel="stylesheet" href="../case.css">
+<style>
+:root{--rb:#E61E37;--sa:#0f8a4a}
+[lang=ar]{font-family:"Noto Kufi Arabic","Inter Tight",sans-serif}
+/* opening line */
+.ar-line{direction:rtl;text-align:center;font-weight:800;font-size:clamp(40px,7.6vw,132px);line-height:1.3;margin:0;padding:clamp(70px,10vw,150px) 0 clamp(10px,1.4vw,20px)}
+.ar-line span{display:block}
+.ar-line span:last-child{color:var(--rb)}
+.en-line{text-align:center;margin:0 auto;max-width:30ch;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:clamp(18px,2vw,30px);line-height:1.05}
+.ar-sub{text-align:center;margin:clamp(18px,2vw,28px) auto 0;max-width:54ch;font-size:clamp(16px,1.3vw,19px);line-height:1.5;color:#cfcfcf}
+.ar-sub{padding-bottom:clamp(70px,10vw,150px)}
+.snd-band{background:#002627;display:grid;place-items:center;padding:clamp(40px,6vw,90px) 16px}
+.snd-band img{width:min(760px,92%);height:auto;display:block}
+/* story stages */
+.stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(10px,1.2vw,16px);margin-top:clamp(28px,3vw,44px);counter-reset:s}
+.stage{position:relative;border-radius:8px;overflow:hidden;background:#111;color:#fff;display:flex;flex-direction:column}
+.stage .ph{aspect-ratio:16/9;overflow:hidden;background:#000}
+.stage .ph img{width:100%;height:100%;object-fit:contain;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.stage:hover .ph img{transform:scale(1.04)}
+.stage .bd{padding:16px 16px 20px;display:grid;gap:8px;align-content:start}
+.stage .n{font-size:12px;letter-spacing:.14em;color:var(--rb)}
+.stage b{font-weight:800;text-transform:uppercase;font-size:clamp(20px,1.8vw,28px);line-height:.95}
+.stage .ar{direction:rtl;text-align:right;font-size:clamp(15px,1.2vw,18px);font-weight:800;color:#fff}
+.stage p{margin:0;font-size:14px;line-height:1.5;color:#bdbdbd}
+.stage:last-child{background:var(--rb)}.stage:last-child .n{color:#fff;opacity:.8}.stage:last-child p{color:#fff;opacity:.9}
+.stage + .stage::before{content:"→";position:absolute;left:-14px;top:22%;z-index:2;width:22px;height:22px;display:grid;place-items:center;border-radius:50%;background:#0b0b0b;color:#fff;font-size:12px;box-shadow:0 0 0 1px #333}
+/* script */
+.script{display:grid;gap:clamp(56px,7vw,110px)}
+.part{display:grid;gap:clamp(18px,2vw,28px)}
+.part-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-top:1px solid var(--line);padding-top:14px}
+.part-head span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8a8a8a}
+.part-head span:first-child{color:var(--rb)}
+.frames{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:clamp(8px,1vw,12px)}
+.frames img{width:100%;aspect-ratio:16/9;object-fit:contain;background:#000;border-radius:4px}
+.vo{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(20px,4vw,70px);align-items:start}
+.vo .a{margin:0;direction:rtl;text-align:right;font-weight:800;font-size:clamp(24px,2.7vw,46px);line-height:1.55;color:#111}
+.vo .a .ln{display:block;opacity:.18;transition:opacity .8s ease}
+.vo.in .a .ln{opacity:1}
+.vo.in .a .ln:nth-child(2){transition-delay:.25s}.vo.in .a .ln:nth-child(3){transition-delay:.5s}.vo.in .a .ln:nth-child(4){transition-delay:.75s}
+.vo .a em{font-style:normal;color:var(--rb)}
+.vo .e{margin:0;font-size:clamp(15px,1.2vw,18px);line-height:1.6;color:#555;padding-top:.6em}
+/* film player */
+.film{position:relative;aspect-ratio:16/9;background:#000;border-radius:6px;overflow:hidden;user-select:none}
+.film figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 1.4s ease}
+.film figure.on{opacity:1;z-index:1}
+.film figure img{width:100%;height:100%;object-fit:contain;transform:scale(1);transition:transform 6s linear}
+.film figure.on img{transform:scale(1.035)}
+.film .sup{position:absolute;left:0;right:0;bottom:14%;z-index:4;display:grid;justify-items:center;gap:6px;padding:0 6%;text-align:center;opacity:0;transition:opacity .6s ease;text-shadow:0 2px 14px rgba(0,0,0,.85)}
+.film .sup.on{opacity:1}
+.film .sup .a{direction:rtl;font-family:"Noto Kufi Arabic",sans-serif;font-weight:800;color:#fff;font-size:clamp(16px,2.6vw,40px);line-height:1.4}
+.film .sup .e{font-size:clamp(11px,1.1vw,15px);color:#e5e5e5}
+.film .hud{position:absolute;left:0;right:0;bottom:0;z-index:5;display:flex;align-items:center;gap:16px;padding:clamp(10px,1.4vw,18px) clamp(14px,2vw,28px);color:#fff;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.film .hud b{font-weight:500;white-space:nowrap}
+.film .bar{flex:1;height:2px;background:rgba(255,255,255,.2);position:relative;overflow:hidden}
+.film .bar i{position:absolute;inset:0;background:var(--rb);transform-origin:left;transform:scaleX(0)}
+.film .cnt{font-variant-numeric:tabular-nums;opacity:.8}
+.film .lab{position:absolute;top:clamp(14px,1.8vw,24px);left:clamp(14px,2vw,28px);z-index:5;color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;display:flex;gap:8px;align-items:center;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.film .lab::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--rb)}
+.film .pp{all:unset;position:absolute;top:clamp(10px,1.4vw,18px);right:clamp(12px,1.8vw,24px);z-index:6;cursor:pointer;color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border:1px solid rgba(255,255,255,.4);border-radius:999px;background:rgba(0,0,0,.25)}
+.film .pp:focus-visible{outline:2px solid var(--rb);outline-offset:2px}
+.seq{display:grid;grid-template-columns:3fr 3fr 1fr 3fr 4fr 2fr;gap:6px;margin-top:10px}
+.seq button{all:unset;cursor:pointer;display:grid;gap:6px;min-width:0}
+.seq .th{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:3px}
+.seq .th i{aspect-ratio:16/9;background:#000 center/cover no-repeat;opacity:.35;transition:opacity .3s,outline-color .3s;outline:2px solid transparent;outline-offset:-2px;border-radius:2px}
+.seq .th i.on{opacity:1;outline-color:var(--rb)}
+.seq .nm{border-top:2px solid #333;padding-top:8px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a8a8a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:border-color .4s,color .4s}
+.seq button.on .nm{border-color:var(--rb);color:#fff}
+.seq button:focus-visible .nm{color:#fff}
+.film{position:relative;aspect-ratio:16/9;background:#000;border-radius:6px;overflow:hidden;user-select:none}
+.film figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 1.2s ease}
+.film figure.on{opacity:1;z-index:1}
+.film figure img{width:100%;height:100%;object-fit:contain;transform:scale(1);transition:transform 5s linear}
+.film figure.on img{transform:scale(1.035)}
+.film .sup{position:absolute;left:0;right:0;bottom:14%;z-index:4;display:grid;justify-items:center;gap:6px;padding:0 6%;text-align:center;opacity:0;transition:opacity .5s ease;text-shadow:0 2px 14px rgba(0,0,0,.85)}
+.film .sup.on{opacity:1}
+.film .sup .a{direction:rtl;font-family:"Noto Kufi Arabic",sans-serif;font-weight:800;color:#fff;font-size:clamp(16px,2.6vw,40px);line-height:1.4}
+.film .sup .e{font-size:clamp(11px,1.1vw,15px);color:#e5e5e5}
+.film .hud{position:absolute;left:0;right:0;bottom:0;z-index:5;display:flex;align-items:center;gap:16px;padding:clamp(10px,1.4vw,18px) clamp(14px,2vw,28px);color:#fff;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.film .hud b{font-weight:500;white-space:nowrap}
+.film .bar{flex:1;height:2px;background:rgba(255,255,255,.2);position:relative;overflow:hidden}
+.film .bar i{position:absolute;inset:0;background:var(--rb);transform-origin:left;transform:scaleX(0)}
+.film .cnt{font-variant-numeric:tabular-nums;opacity:.8}
+.film .lab{position:absolute;top:clamp(14px,1.8vw,24px);left:clamp(14px,2vw,28px);z-index:5;color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;display:flex;gap:8px;align-items:center;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.film .lab::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--rb)}
+.film .pp{all:unset;position:absolute;top:clamp(10px,1.4vw,18px);right:clamp(12px,1.8vw,24px);z-index:6;cursor:pointer;color:#fff;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border:1px solid rgba(255,255,255,.4);border-radius:999px;background:rgba(0,0,0,.25)}
+.film .pp:focus-visible{outline:2px solid var(--rb);outline-offset:2px}
+.strip{display:grid;grid-template-columns:repeat(16,minmax(0,1fr));gap:4px;margin-top:8px}
+.strip button{all:unset;cursor:pointer;aspect-ratio:16/9;background:#000 center/cover no-repeat;opacity:.38;transition:opacity .3s,outline-color .3s;outline:2px solid transparent;outline-offset:-2px;border-radius:2px}
+.strip button:hover{opacity:.8}.strip button.on{opacity:1;outline-color:var(--rb)}
+.strip button:focus-visible{outline-color:#fff}
+@media (max-width:860px){.strip{grid-template-columns:repeat(8,minmax(0,1fr))}.film .sup{bottom:24%}.film .hud{padding:8px 12px}}
+@media (prefers-reduced-motion:reduce){.film figure img,.film figure.on img{transform:none;transition:none}}
+/* production */
+.prod{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+.prod figure{margin:0;display:grid;gap:14px;align-content:start}
+.prod .ph{aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:#000}
+.prod .ph img{width:100%;height:100%;object-fit:contain}
+.prod span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--rb)}
+.prod b{display:block;font-weight:800;text-transform:uppercase;font-size:clamp(20px,1.9vw,30px);line-height:.95;margin-top:6px}
+.prod p{margin:8px 0 0;font-size:15px;line-height:1.5;color:#444}
+.note{margin:clamp(24px,2.6vw,36px) 0 0;padding-top:16px;border-top:1px solid var(--line);font-size:clamp(16px,1.3vw,20px);line-height:1.45;font-weight:500;max-width:60ch}
+/* music */
+.score{position:relative;margin-top:clamp(20px,2.4vw,34px)}
+.score svg{width:100%;height:clamp(120px,14vw,200px);display:block;overflow:visible}
+.score .wave{fill:none;stroke:var(--rb);stroke-width:2;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.6s cubic-bezier(.6,0,.2,1)}
+.score .area{fill:url(#sg);opacity:0;transition:opacity 1.2s ease 1.4s}
+.score.in .wave{stroke-dashoffset:0}.score.in .area{opacity:1}
+.score .peak{fill:var(--rb);opacity:0;transition:opacity .6s ease 2.4s}.score.in .peak{opacity:1}
+.score .gl{stroke:#333;stroke-width:1;stroke-dasharray:3 4}
+.states{display:grid;grid-template-columns:1fr 1.2fr .8fr;border-top:1px solid var(--line-d)}
+.states div{padding:18px 18px 4px 0;display:grid;gap:8px;align-content:start}
+.states div + div{padding-left:18px;border-left:1px solid var(--line-d)}
+.states span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--rb)}
+.states b{font-weight:800;text-transform:uppercase;font-size:clamp(20px,2vw,32px);line-height:.95}
+.states p{margin:0;font-size:15px;line-height:1.5;color:#bdbdbd}
+.peak-lbl{font-size:11px;letter-spacing:.14em;text-transform:uppercase;fill:#9a9a9a;font-family:"Inter Tight",sans-serif}
+/* values */
+.vals{border-top:1px solid var(--line)}
+.val{display:grid;grid-template-columns:minmax(0,1fr) 180px minmax(0,1fr);align-items:center;gap:clamp(14px,2vw,28px);padding:clamp(12px,1.4vw,18px) 0;border-bottom:1px solid var(--line)}
+.val .pt{font-size:clamp(16px,1.3vw,20px);font-weight:500}
+.val .pt small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8a8a8a;font-weight:400;margin-bottom:4px}
+.val img{width:100%;aspect-ratio:16/9;object-fit:contain;background:#000;border-radius:4px}
+.val .v{direction:rtl;text-align:right;font-weight:800;font-size:clamp(26px,3.2vw,54px);line-height:1.3}
+.val .v em{font-style:normal;color:var(--rb)}
+/* close */
+.endcard{display:grid;place-items:center;padding:clamp(60px,9vw,140px) 0 0;gap:clamp(16px,2vw,26px);text-align:center}
+.endcard p{margin:0;direction:rtl;font-weight:800;font-size:clamp(44px,8vw,140px);line-height:1.2}
+.endcard p span{color:var(--rb)}
+.endcard .sm{direction:rtl;font-weight:500;font-size:clamp(18px,1.8vw,28px);color:#cfcfcf}
+.endcard img{width:clamp(48px,5vw,72px);height:auto}
+@media (max-width:860px){
+  .stages{grid-template-columns:1fr 1fr}.stage + .stage::before{display:none}
+  .vo,.prod,.states{grid-template-columns:1fr}.states div + div{padding-left:0;border-left:0;border-top:1px solid var(--line-d)}
+  .frames{grid-auto-flow:row;grid-template-columns:1fr 1fr}
+  .seq{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:12px}
+  .val{grid-template-columns:110px 1fr;grid-template-areas:"img v" "img pt"}.val img{grid-area:img}.val .v{grid-area:v;text-align:left}.val .pt{grid-area:pt}
+}
+@media (prefers-reduced-motion:reduce){.film figure img,.film figure.on img{transform:none;transition:none}.vo .a .ln{opacity:1}}
+</style>
+</head>
+<body>
+
+<a class="corner tl s" href="../index.html">Tarek Tawfiek</a>
+<a class="corner tr s" href="../index.html#work">All projects</a>
+<a class="corner bl s" href="../index.html">← Back</a>
+<a class="corner br s" href="../lucid-after-sales/index.html">Next: Lucid After-Sales</a>
+
+<header class="hero">
+  <img src="img/cover.jpg" alt="A Saudi man on carved rock at dusk, a mud-brick town below him and light trails, a train and the Riyadh skyline stretching to the horizon" width="1672" height="941" style="object-position:50% 50%">
+</header>
+
+<main>
+<section class="dark pad">
+  <div class="title">
+    <h1 class="big">Red Bananas × SND 96</h1>
+    <p class="s dim">Saudi National Day 96 film · <span lang="ar" dir="rtl">عزّنا بطبعنا</span></p>
+  </div>
+  <div class="facts">
+    <div><span class="s dim">Client</span><b>Red Bananas · agency brand</b></div>
+    <div><span class="s dim">Occasion</span><b>Saudi National Day 96, 2026</b></div>
+    <div><span class="s dim">Scope</span><b>Film concept, script &amp; VO, key frames, production and music direction</b></div>
+    <div><span class="s dim">Role</span><b>Creative direction &amp; art direction</b></div>
+  </div>
+</section>
+
+<section class="dark pad">
+  <p class="ar-line rv" lang="ar"><span>كل إنجاز نحققه…</span><span>بداية لإنجاز أكبر</span></p>
+  <p class="en-line rv">Every achievement we make is the start of a bigger one.</p>
+  <p class="ar-sub rv">A National Day film that connects Saudi heritage and character to today's achievements, and to the agency's own role in telling these stories.</p>
+</section>
+
+<div class="snd-band rv"><img src="img/snd-lockup-c.jpg" alt="The official Saudi National Day 96 lockup: «اليوم الوطني السعودي» beside «عزّنا بطبعنا» in a green pattern frame" width="1333" height="303" loading="lazy"></div>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">01 · The story</span><h2 class="big">Four simple stages</h2></div>
+    <p class="rv">From the land that shaped the Saudi character, through the values it carries, to the Kingdom's achievements, and finally to the agency's part in telling that ambition.</p>
+  </div>
+  <div class="stages rv">
+    <div class="stage"><div class="ph"><img src="img/f02.jpg" alt="A man standing on sandstone rocks at sunrise" loading="lazy" width="1920" height="1080"></div><div class="bd"><span class="n">01</span><b>Land &amp; heritage</b><span class="ar" lang="ar">من هنا بدأت الحكاية</span><p>Landscapes, old villages and craft: where the character was formed.</p></div></div>
+    <div class="stage"><div class="ph"><img src="img/f06.jpg" alt="Families greeting each other in an old town lane" loading="lazy" width="1920" height="1080"></div><div class="bd"><span class="n">02</span><b>Saudi values</b><span class="ar" lang="ar">الكرم، الفزعة، الأصالة</span><p>Hospitality, standing together and pride in origin: shown, not stated.</p></div></div>
+    <div class="stage"><div class="ph"><img src="img/f08.jpg" alt="Riyadh highways full of light trails at dusk" loading="lazy" width="1920" height="1080"></div><div class="bd"><span class="n">03</span><b>National achievements</b><span class="ar" lang="ar">مدن تنبض، ومعرفة إلى ابتكار</span><p>Roads, cities, innovation and development: the same character, at scale.</p></div></div>
+    <div class="stage"><div class="ph"><img src="img/f13.jpg" alt="A film crew shooting a Lucid Air at golden hour" loading="lazy" width="1920" height="1080"></div><div class="bd"><span class="n">04</span><b>Red Bananas' contribution</b><span class="ar" lang="ar">نحوّل القصة إلى أثر</span><p>Telling Saudi ambition creatively: idea to identity, identity to story.</p></div></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">02 · The script</span><h2 class="big">Four verses, one voice</h2></div>
+    <p class="rv">The voice-over is written in a warm Saudi register and moves with the four stages of the story.</p>
+  </div>
+  <div class="script">
+    <div class="part">
+      <div class="part-head rv"><span>Verse 01 · Land &amp; heritage</span><span lang="ar" style="letter-spacing:0;font-size:14px">من هنا بدأت الحكاية</span></div>
+      <div class="vo rv"><p class="a" lang="ar"><span class="ln">من هنا بدأت الحكاية.</span><span class="ln">من أرض علّمتنا الثبات، وبحر وسّع أفقنا،</span><span class="ln">وبيوت حفظت هويتنا جيلًا بعد جيل.</span><span class="ln">ومنها أخذنا <em>طبعنا</em>.</span></p><p class="e">This is where the story began. From a land that taught us to stand firm, a sea that widened our horizon, and homes that kept our identity, generation after generation. And from them, we took our nature.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head rv"><span>Verse 02 · Values to achievements</span><span lang="ar" style="letter-spacing:0;font-size:14px">طبعٌ خلّانا ما نكتفي بالحلم</span></div>
+      <div class="vo rv"><p class="a" lang="ar"><span class="ln">طبعٌ خلّانا ما نكتفي بالحلم.</span><span class="ln">حوّلنا الطريق إلى مدن تنبض،</span><span class="ln">والمعرفة إلى ابتكار،</span><span class="ln">والثقافة إلى <em>حضور يصل للعالم</em>.</span></p><p class="e">A nature that never let us settle for the dream. We turned roads into cities with a pulse, knowledge into innovation, and culture into a presence the world can feel.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head rv"><span>Verse 03 · Red Bananas</span><span lang="ar" style="letter-spacing:0;font-size:14px">نحوّل القصة إلى أثر</span></div>
+      <div class="vo rv"><p class="a" lang="ar"><span class="ln">وإحنا، من هذا الوطن، نحمل الطبع نفسه.</span><span class="ln">نحوّل الفكرة إلى هوية،</span><span class="ln">والهوية إلى قصة،</span><span class="ln">والقصة إلى <em>أثر</em>.</span></p><p class="e">And we, from this nation, carry the same nature. We turn an idea into an identity, an identity into a story, and a story into impact.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head rv"><span>Verse 04 · Outro</span><span lang="ar" style="letter-spacing:0;font-size:14px">بداية لإنجاز أكبر</span></div>
+      <div class="vo rv"><p class="a" lang="ar"><span class="ln">لأن كل إنجاز نحققه…</span><span class="ln">بداية لإنجاز أكبر.</span><span class="ln"><em>عزّنا بطبعنا.</em></span><span class="ln">وكل عام والسعودية بعز.</span></p><p class="e">Because every achievement we make is the start of a bigger one. Our pride is in our nature. And may Saudi Arabia always stay proud.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">03 · Film sequence</span><h2 class="big">The key frames, in flow</h2></div>
+    <p class="rv">The storyboard as it plays: sixteen frames, each carrying its own line of the script.</p>
+  </div>
+  <div class="film rv" id="film" aria-roledescription="carousel" aria-label="Film sequence key frames with script">
+    <span class="lab">SND 96 · Key frames</span>
+    <button class="pp" type="button" aria-pressed="false">Pause</button>
+    <figure class="on" data-ch="01 · Landscapes" data-a="من هنا بدأت الحكاية." data-e="This is where the story began."><img src="img/f01.jpg" alt="A family walking hand in hand toward a desert sunset" width="1920" height="1080"></figure>
+    <figure data-ch="01 · Landscapes" data-a="من أرض علّمتنا الثبات،" data-e="From a land that taught us to stand firm,"><img src="img/f02.jpg" alt="A man standing on sandstone rocks at sunrise" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="01 · Landscapes" data-a="وبحر وسّع أفقنا،" data-e="a sea that widened our horizon,"><img src="img/f03.jpg" alt="A grandfather and a boy in a wooden fishing boat at sunset" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="02 · Heritage" data-a="وبيوت حفظت هويتنا" data-e="and homes that kept our identity"><img src="img/f04.jpg" alt="A grandmother holding a girl's hand outside a stone house framed by palms" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="02 · Heritage" data-a="جيلًا بعد جيل." data-e="generation after generation."><img src="img/f05.jpg" alt="An elder talking with a girl in the courtyard of a mud-brick house" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="02 · Heritage" data-a="ومنها أخذنا طبعنا." data-e="And from them, we took our nature."><img src="img/f06.jpg" alt="A family greeting friends in an old town lane with wooden balconies" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="03 · Values" data-a="طبعٌ خلّانا ما نكتفي بالحلم." data-e="A nature that never let us settle for the dream."><img src="img/f07.jpg" alt="A man climbing ancient stone steps toward a mountain ridge" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="04 · Transition" data-a="حوّلنا الطريق إلى مدن تنبض،" data-e="We turned roads into cities with a pulse,"><img src="img/f08.jpg" alt="Riyadh at dusk with light trails on highways leading to the skyline" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="04 · Transition" data-a="والمعرفة إلى ابتكار،" data-e="knowledge into innovation,"><img src="img/f09.jpg" alt="A father guiding his son as they build a circuit board" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="04 · Transition" data-a="والثقافة إلى حضور يصل للعالم." data-e="and culture into a presence the world can feel."><img src="img/f10.jpg" alt="A curator showing woven Sadu textiles to a visitor" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="05 · Red Bananas" data-a="وإحنا، من هذا الوطن، نحمل الطبع نفسه." data-e="And we, from this nation, carry the same nature."><img src="img/f11.jpg" alt="A creative team gathered around printed concepts" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="05 · Red Bananas" data-a="نحوّل الفكرة إلى هوية،" data-e="We turn an idea into an identity,"><img src="img/f12.jpg" alt="A camera crew filming inside an immersive light installation" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="05 · Red Bananas" data-a="والهوية إلى قصة،" data-e="an identity into a story,"><img src="img/f13.jpg" alt="A film crew shooting a Lucid Air at golden hour" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="05 · Red Bananas" data-a="والقصة إلى أثر." data-e="and a story into impact."><img src="img/f14.jpg" alt="A crew shooting on a marina pier with a yacht" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="06 · Outro" data-a="لأن كل إنجاز نحققه… بداية لإنجاز أكبر." data-e="Because every achievement we make is the start of a bigger one."><img src="img/f15.jpg" alt="A man on a seafront watching jets trail green and white smoke" width="1920" height="1080" loading="lazy"></figure>
+    <figure data-ch="06 · Outro" data-a="عزّنا بطبعنا. وكل عام والسعودية بعز." data-e="Our pride is in our nature. And may Saudi Arabia always stay proud."><img src="img/f16.jpg" alt="End card: «عزّنا بطبعنا» in a green pixel frame" width="1920" height="1080" loading="lazy"></figure>
+    <div class="sup" aria-live="polite"><span class="a" lang="ar"></span><span class="e"></span></div>
+    <div class="hud"><b class="cn">01 · Landscapes</b><span class="bar"><i></i></span><span class="cnt">01 / 16</span></div>
+  </div>
+  <div class="strip" role="tablist" aria-label="Choose a key frame"></div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">04 · Production</span><h2 class="big">How the footage is made</h2></div>
+    <p class="rv">Three sources, edited as one language.</p>
+  </div>
+  <div class="prod">
+    <figure class="rv"><div class="ph"><img src="img/f03.jpg" alt="AI-generated key frame of a grandfather and boy in a boat" loading="lazy" width="1920" height="1080"></div><figcaption><span>01</span><b>AI-generated imagery</b><p>Key frames are generated as AI stills, then animated with slow camera pushes, parallax and light motion so every image breathes on screen.</p></figcaption></figure>
+    <figure class="rv"><div class="ph"><img src="img/f11.jpg" alt="The team working around printed concepts at the office" loading="lazy" width="1920" height="1080"></div><figcaption><span>02</span><b>Office footage</b><p>Live footage shot at our office: workspaces, screens, hands, faces, grounding the film in a real place and real people.</p></figcaption></figure>
+    <figure class="rv"><div class="ph"><img src="img/f14.jpg" alt="Behind the scenes on a marina shoot" loading="lazy" width="1920" height="1080"></div><figcaption><span>03</span><b>Behind the scenes</b><p>BTS from our own work: the team building, filming and editing. Raw, handheld texture cut against the polished frames.</p></figcaption></figure>
+  </div>
+  <p class="note rv">Generated frames set the scale and the emotion; the office and BTS material carry the truth.</p>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">05 · Music &amp; sound</span><h2 class="big">The score carries the story</h2></div>
+    <p class="rv">One motif, three states. The edit is cut to the music, so image and score reach the peak at the same second.</p>
+  </div>
+  <div class="score rv" id="score">
+    <svg viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
+      <defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E61E37" stop-opacity=".35"/><stop offset="1" stop-color="#E61E37" stop-opacity="0"/></linearGradient></defs>
+      <line class="gl" x1="400" y1="0" x2="400" y2="200"/><line class="gl" x1="860" y1="0" x2="860" y2="200"/>
+      <path class="area" d="M0 180 C 120 176, 260 170, 400 160 C 520 150, 640 70, 760 26 C 800 14, 830 30, 860 110 C 900 160, 950 172, 1000 176 L1000 200 L0 200 Z"/>
+      <path class="wave" pathLength="1" d="M0 180 C 120 176, 260 170, 400 160 C 520 150, 640 70, 760 26 C 800 14, 830 30, 860 110 C 900 160, 950 172, 1000 176"/>
+      <circle class="peak" cx="772" cy="22" r="6"/>
+    </svg>
+  </div>
+  <div class="states rv" style="grid-template-columns:4fr 4.6fr 1.4fr">
+    <div><span>01 · Opening</span><b>Oriental oud</b><p>A solo oud opens the film: warm, intimate, unmistakably ours. Sparse percussion and room air keep the first frames quiet and rooted.</p></div>
+    <div><span>02 · Achievements</span><b>Progressive</b><p>On the turn to achievements, strings and a driving pulse pick up the oud motif. Tempo and layers build with every milestone on screen.</p></div>
+    <div><span>03 · Close</span><b>Subtle</b><p>One sustained line; the oud returns, softer, and leaves the final message to land.</p></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">06 · Values &amp; visuals</span><h2 class="big">Each value, its own visual world</h2></div>
+    <p class="rv">The National Day theme breaks into five values, and every part of the film is built to carry one of them.</p>
+  </div>
+  <div class="vals">
+    <div class="val rv"><span class="pt"><small>Film part</small>Landscapes and ambition</span><img src="img/f07.jpg" alt="A man climbing stone steps toward a mountain ridge" loading="lazy" width="1920" height="1080"><span class="v" lang="ar">عزّنا <em>بطموحنا</em></span></div>
+    <div class="val rv"><span class="pt"><small>Film part</small>Heritage and traditional architecture</span><img src="img/f04.jpg" alt="A grandmother and girl before a stone house" loading="lazy" width="1920" height="1080"><span class="v" lang="ar">عزّنا <em>بأصالتنا</em></span></div>
+    <div class="val rv"><span class="pt"><small>Film part</small>Hospitality and welcoming</span><img src="img/f06.jpg" alt="Families greeting friends in an old town lane" loading="lazy" width="1920" height="1080"><span class="v" lang="ar">عزّنا <em>بكرمنا</em></span></div>
+    <div class="val rv"><span class="pt"><small>Film part</small>Helping and supporting others</span><img src="img/f05.jpg" alt="An elder talking warmly with a young girl" loading="lazy" width="1920" height="1080"><span class="v" lang="ar">عزّنا <em>بفزعتنا</em></span></div>
+    <div class="val rv"><span class="pt"><small>Film part</small>Development and achievements</span><img src="img/f08.jpg" alt="Riyadh highways at dusk" loading="lazy" width="1920" height="1080"><span class="v" lang="ar">عزّنا <em>برؤيتنا</em></span></div>
+  </div>
+</section>
+
+<section class="dark pad">
+  <div class="endcard rv">
+    <p lang="ar">عزّنا <span>بطبعنا</span></p>
+    <span class="sm" lang="ar">وكل عام والسعودية بعز.</span>
+    <img src="img/rb-mark-red.png" alt="Red Bananas mark" width="472" height="472">
+  </div>
+  <div class="close">
+    <h2 class="big rv">The start of<br>something bigger.</h2>
+    <p class="rv">From the land that formed the character to the crews telling its story today: one film, one nature, and a promise that every achievement opens the next.</p>
+  </div>
+  <figure class="close-img rv"><div class="work"><img src="img/f15.jpg" alt="Jets trailing green and white smoke over the sea as people watch from the promenade" loading="lazy" width="1920" height="1080"></div></figure>
+</section>
+
+<footer class="pad next-wrap">
+  <a class="next" href="../lucid-after-sales/index.html">
+    <img class="tz" src="../lucid-after-sales/img/close.jpg" alt="" loading="lazy">
+    <span class="s dim">Next project</span>
+    <span class="big">Lucid After-Sales</span>
+  </a>
+</footer>
+</main>
+
+<div class="lb" id="lb" hidden><img alt=""><button type="button">Close</button></div>
+<script src="../case.js"></script>
+<script>
+(function(){
+  var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function io(el,cb,th){if(!el)return;if(!('IntersectionObserver' in window)){cb(true);return}new IntersectionObserver(function(es){es.forEach(function(e){cb(e.isIntersecting)})},{threshold:th||.3}).observe(el)}
+  var sc=document.getElementById('score');io(sc,function(v){if(v)sc.classList.add('in')},.4);
+
+  var f=document.getElementById('film'),fr=[].slice.call(f.querySelectorAll('figure')),bar=f.querySelector('.bar i'),cnt=f.querySelector('.cnt'),cn=f.querySelector('.cn'),pp=f.querySelector('.pp'),sup=f.querySelector('.sup'),sa=f.querySelector('.sup .a'),se=f.querySelector('.sup .e'),strip=document.querySelector('.strip');
+  fr.forEach(function(x,j){var b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-label','Frame '+(j+1)+': '+x.dataset.e);b.style.backgroundImage='url('+x.querySelector('img').getAttribute('src')+')';b.addEventListener('click',function(){go(j)});strip.appendChild(b)});
+  var th=[].slice.call(strip.children),i=0,t=null,st=null,vis=false,paused=RM,D=4200;
+  function go(k){i=k;fr.forEach(function(x,j){x.classList.toggle('on',j===k)});th.forEach(function(b,j){b.classList.toggle('on',j===k);b.setAttribute('aria-selected',j===k)});
+    var x=fr[k];cn.textContent=x.dataset.ch;cnt.textContent=String(k+1).padStart(2,'0')+' / 16';
+    sup.classList.remove('on');clearTimeout(st);st=setTimeout(function(){sa.textContent=x.dataset.a;se.textContent=x.dataset.e;sup.classList.add('on')},300);
+    var nx=fr[(k+1)%fr.length].querySelector('img');if(nx.loading==='lazy')nx.loading='eager';
+    bar.style.transition='none';bar.style.transform='scaleX(0)';void bar.offsetWidth;clearTimeout(t);
+    if(!paused&&vis){bar.style.transition='transform '+D+'ms linear';bar.style.transform='scaleX(1)';t=setTimeout(function(){go((i+1)%fr.length)},D)}}
+  pp.addEventListener('click',function(){paused=!paused;pp.textContent=paused?'Play':'Pause';pp.setAttribute('aria-pressed',paused);go(i)});
+  if(RM)pp.textContent='Play';
+  io(f,function(v){vis=v;go(i)},.35);
+  go(0);
+})();
+</script>
+</body>
+</html>

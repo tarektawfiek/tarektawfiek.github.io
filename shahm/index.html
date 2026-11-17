@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Shahm — Tarek Tawfiek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Shahm (شهم): branding case study by Tarek Tawfiek, Senior Art Director.">
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash)addEventListener("DOMContentLoaded",function(){scrollTo({top:0,left:0,behavior:"instant"})});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Jost:wght@300;400&family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;500&display=swap">
+<link rel="stylesheet" href="../case.css">
+<style>
+.lv{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(8px,1vw,14px)}
+.lv div{border-radius:4px;display:grid;place-items:center;padding:clamp(24px,4vw,60px);position:relative;min-height:clamp(200px,22vw,340px)}
+.lv img{max-width:100%;max-height:100%;width:auto;height:auto}
+.lv .w6{grid-column:span 6;min-height:clamp(240px,28vw,440px)}.lv .w3{grid-column:span 3}.lv .w2{grid-column:span 2}
+.lv .w6 img{width:min(78%,1100px)}
+.lv .w3 img{max-height:clamp(120px,14vw,220px)}
+.lv .w2 img{max-height:clamp(110px,12vw,190px)}
+.lv .k{background:#202625}.lv .l{background:#D7CAB3}.lv .c{background:#ffffff;box-shadow:inset 0 0 0 1px #e6e2da}.lv .b{background:#4C352B}.lv .z{background:#967154}
+.lv span{position:absolute;left:14px;bottom:12px;font-size:12px;font-weight:500;letter-spacing:.03em;opacity:.7}
+.lv .k span,.lv .b span,.lv .z span{color:#D7CAB3}.lv .l span,.lv .c span{color:#202625}
+.pal4{display:flex;gap:clamp(8px,1vw,14px);height:clamp(340px,40vw,560px)}
+.pal4.rv{opacity:1;transform:none}
+.pal4 div{position:relative;flex:1 1 0;overflow:hidden;border-radius:4px;padding:clamp(14px,1.6vw,22px);display:flex;flex-direction:column;justify-content:flex-end;gap:6px;color:#F4F0E8;background:var(--c);clip-path:inset(100% 0 0 0 round 4px);transition:clip-path 1.3s cubic-bezier(.77,0,.18,1) var(--d),flex-grow .9s cubic-bezier(.2,.7,.2,1);cursor:default}
+.pal4.in div{clip-path:inset(0 0 0 0 round 4px)}
+.pal4 div:first-child{box-shadow:inset 0 0 0 1px #333}
+.pal4 b,.pal4 span{position:relative;z-index:1;opacity:0;transform:translateY(14px);transition:opacity .8s ease calc(var(--d) + .9s),transform .8s cubic-bezier(.2,.7,.2,1) calc(var(--d) + .9s)}
+.pal4.in b,.pal4.in span{opacity:1;transform:none}
+.pal4 b{font-weight:800;text-transform:uppercase;font-size:clamp(15px,1.4vw,21px);line-height:1;white-space:nowrap}
+.pal4 span{font-size:13px;opacity:.85;line-height:1.5;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pal4.in span{opacity:.85}
+.pal4 .lt{color:#202625}
+.pal4 i{position:absolute;inset:0;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.16) 50%,transparent 65%);transform:translateX(-120%);transition:none}
+.pal4.in i{animation:sheen 2.4s cubic-bezier(.4,0,.2,1) calc(var(--d) + 1.1s) 1 both}
+@keyframes sheen{to{transform:translateX(120%)}}
+.pal4:hover div{flex-grow:.7}.pal4 div:hover{flex-grow:2.2}
+.pal4 div:hover i{animation:sheen 1.4s cubic-bezier(.4,0,.2,1) 1 both}
+.bm2{display:grid;grid-template-columns:2.12fr 1fr;gap:clamp(8px,1vw,14px)}
+.tf{margin-top:clamp(10px,1.2vw,16px);background:#202625;color:#D7CAB3;border-radius:4px;padding:clamp(22px,3.4vw,56px);overflow:hidden;position:relative}
+.tf::before{content:"";position:absolute;right:-8%;top:-30%;width:55%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(150,113,84,.28),transparent 65%);pointer-events:none}
+.tf-top{display:flex;justify-content:space-between;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#967154;border-bottom:1px solid rgba(215,202,179,.18);padding-bottom:14px}
+.tf-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,64px);align-items:end;padding:clamp(40px,6vw,96px) 0 clamp(36px,5vw,80px)}
+.tf-en{margin:0;font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;font-size:clamp(40px,5.4vw,92px);line-height:.98;letter-spacing:-.01em;color:#F4F0E8}
+.tf-en em{font-style:italic;color:#C0A184}
+.tf-ar{margin:0;font-family:Amiri,serif;font-size:clamp(36px,4.6vw,80px);line-height:1.35;color:#F4F0E8;text-align:right}
+.tf-ar span{color:#C0A184}
+.tf-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(215,202,179,.18)}
+.tf-f{padding:22px 18px 6px 0;display:grid;gap:10px;align-content:start}
+.tf-f + .tf-f{padding-left:18px;border-left:1px solid rgba(215,202,179,.18)}
+.tf-f[dir=rtl]{padding-left:0;padding-right:18px;text-align:right}
+.tf-f[dir=rtl] + .tf-f[dir=rtl]{padding-right:18px}
+.tf-role{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#967154}
+.tf-f b{font-weight:400;font-size:clamp(64px,7vw,120px);line-height:1;color:#F4F0E8}
+.tf-f strong{font-family:"Inter Tight",sans-serif;font-weight:500;font-size:15px;color:#F4F0E8}
+.tf-s{margin:0;font-size:16px;line-height:1.5;color:#D7CAB3;opacity:.85}
+.tf-w{font-size:12px;color:rgba(215,202,179,.6)}
+.g-cg{font-family:"Cormorant Garamond",Georgia,serif}.g-cg.tf-s{font-size:22px;letter-spacing:.14em}
+.g-jo{font-family:Jost,sans-serif;font-weight:300}
+.g-am{font-family:Amiri,serif}.g-am.tf-s{font-size:26px}
+.g-px{font-family:"IBM Plex Sans Arabic",sans-serif;font-weight:300}
+.tf .tf-f > *{opacity:0;transform:translateY(12px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.tf.in .tf-f > *{opacity:1;transform:none}
+.tf.in .tf-f:nth-child(2) > *{transition-delay:.12s}.tf.in .tf-f:nth-child(3) > *{transition-delay:.24s}.tf.in .tf-f:nth-child(4) > *{transition-delay:.36s}
+@media (max-width:860px){.tf-hero{grid-template-columns:1fr}.tf-grid{grid-template-columns:1fr 1fr;row-gap:20px}.tf-f + .tf-f{border-left:0;padding-left:0}.tf-f[dir=rtl]{padding-right:0}}
+.ty{background:#fff;box-shadow:inset 0 0 0 1px #e6e2da;border-radius:4px;display:grid;place-items:center;padding:clamp(48px,8vw,130px) 16px}
+.ty img{width:min(56%,620px)}
+.ty-spec{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);margin-top:clamp(24px,3vw,40px)}
+.ty-spec div{padding:18px 16px 0 0;display:grid;gap:10px;align-content:start}
+.ty-spec div + div{padding-left:16px;border-left:1px solid var(--line)}
+.ty-spec b{font-weight:400;font-size:clamp(30px,3.4vw,56px);line-height:1;color:#202625}
+.ty-l{font-family:"Cormorant Garamond","Didot","Bodoni 72",Georgia,serif;letter-spacing:.08em}
+.ty-a{font-family:"Noto Naskh Arabic","Geeza Pro",serif;direction:rtl;text-align:right}
+.ty-t{font-family:"Cormorant Garamond","Didot",Georgia,serif;letter-spacing:.32em}
+.ty-spec p{margin:0;font-size:15px;line-height:1.5;color:#555;max-width:34ch}
+.img6{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(8px,1vw,14px)}
+.img6 img{aspect-ratio:16/9;object-fit:cover}
+.ed3{display:grid;grid-template-columns:1.25fr .8fr 1fr;gap:clamp(8px,1vw,14px);align-items:stretch}
+.ed3 .work,.ed3 img{height:100%}.ed3 img{object-fit:cover}
+@media (max-width:860px){.pal4{flex-direction:column;height:auto}.pal4 div{min-height:120px}.pal4:hover div,.pal4 div:hover{flex-grow:1}.bm2,.ty-spec{grid-template-columns:1fr}.ty-spec div + div{padding-left:0;border-left:0;border-top:1px solid var(--line)}.lv .w3,.lv .w2{grid-column:span 6}.pal4{grid-template-columns:1fr 1fr}.img6{grid-template-columns:1fr 1fr}.ed3{grid-template-columns:1fr}}
+
+.tf-pair{display:grid;grid-template-columns:120px 1fr 1fr;gap:clamp(18px,3vw,48px);align-items:start;margin-top:clamp(36px,4.4vw,64px);padding-top:clamp(22px,2.6vw,36px);border-top:1px solid rgba(215,202,179,.18)}
+.tf-pair b{display:block;font-weight:300;font-size:clamp(30px,3.4vw,54px);line-height:1.15;color:#F4F0E8}
+.tp-ar b{font-weight:400;line-height:1.5}
+.tf-pair p{margin:12px 0 0;font-size:clamp(15px,1.15vw,17px);line-height:1.65;color:#D7CAB3;opacity:.85}
+
+
+
+/* typography opener on photography */
+.tph{position:relative;margin:clamp(10px,1.2vw,16px) 0 0;border-radius:4px;overflow:hidden}
+.tph img{display:block;width:100%;height:auto}
+.tph-tx{position:absolute;left:5%;top:0;bottom:0;width:44%;display:flex;flex-direction:column;justify-content:center;gap:clamp(8px,1.2vw,18px);color:#4C352B}
+.tph-k,.tph-f{font-family:"Inter Tight",sans-serif;font-size:clamp(9px,.8vw,12px);letter-spacing:.24em;text-transform:uppercase;color:#7a5b43}
+.tph-en{font-weight:300;font-size:clamp(34px,6.2vw,108px);line-height:.95;letter-spacing:-.01em;color:#3d2a20}
+.tph-en em{font-style:italic;color:#967154}
+.tph-ar{font-size:clamp(28px,4.6vw,80px);line-height:1.3;color:#3d2a20;text-align:left}
+.tph-ar em{font-style:normal;color:#967154}
+.tph-tx > *{opacity:0;transform:translateY(16px);transition:opacity 1.1s ease,transform 1.3s cubic-bezier(.16,1,.3,1)}
+.tph.in .tph-tx > *{opacity:1;transform:none}
+.tph.in .tph-tx > :nth-child(2){transition-delay:.15s}.tph.in .tph-tx > :nth-child(3){transition-delay:.35s}.tph.in .tph-tx > :nth-child(4){transition-delay:.55s}
+/* type at work */
+.tapp{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:clamp(10px,1.2vw,16px);margin-top:clamp(10px,1.2vw,16px)}
+.ta{margin:0;display:grid;grid-template-rows:1fr auto;border-radius:4px;overflow:hidden;min-height:clamp(340px,30vw,460px)}
+.ta figcaption{display:flex;justify-content:space-between;gap:10px;padding:12px 16px;font-family:"Inter Tight",sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.ta-stone{background:radial-gradient(120% 90% at 30% 20%,#e4d9c6,#cbbca2 70%,#bfae92);color:#4C352B}
+.ta-stone figcaption{color:#7a5b43;border-top:1px solid rgba(76,53,43,.15)}
+.ta-plq{display:grid;place-content:center;justify-items:center;gap:12px;padding:30px;text-align:center}
+.ta-plq span{color:#a99878;text-shadow:-1px -1px 0 rgba(255,255,255,.55),1px 1px 1px rgba(60,40,25,.45)}
+.ta-plq .p1{font-size:clamp(22px,2vw,30px)}
+.ta-plq .p2{font-size:clamp(40px,4vw,62px);letter-spacing:.32em;padding-left:.32em;line-height:1}
+.ta-plq .p3{font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:400}
+.ta-walnut{background:repeating-linear-gradient(92deg,rgba(255,255,255,.025) 0 2px,transparent 2px 9px),linear-gradient(160deg,#5a3f32,#3d2a20);color:#D7CAB3}
+.ta-walnut figcaption{color:rgba(215,202,179,.7);border-top:1px solid rgba(215,202,179,.15)}
+.ta-card{place-self:center;height:82%;max-height:380px;width:auto;aspect-ratio:5/7;background:#f3ede2;box-shadow:0 30px 50px rgba(0,0,0,.35);display:grid;align-content:center;justify-items:center;gap:12px;padding:20px;text-align:center;transform:rotate(-3deg);transition:transform 1s cubic-bezier(.16,1,.3,1)}
+.ta-walnut:hover .ta-card{transform:rotate(0)}
+.ta-card span{background:linear-gradient(110deg,#8a6648,#d4b18a 45%,#8a6648 60%,#b8916c);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.ta-card .c1,.ta-card .c4{font-size:10px;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap}
+.ta-card .c2{font-size:clamp(24px,2.1vw,32px);line-height:1.1;font-weight:300}
+.ta-card .c2 em{font-style:italic}
+.ta-card .c3{font-size:clamp(20px,1.7vw,26px)}
+.ta-page{background:#202625;color:#F4F0E8}
+.ta-page figcaption{color:rgba(215,202,179,.6);border-top:1px solid rgba(215,202,179,.14)}
+.ta-spread{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:clamp(22px,2.4vw,36px);align-content:center}
+.ta-spread > div{display:grid;gap:12px;align-content:start;padding:0 clamp(12px,1.4vw,22px)}
+.ta-spread .sp-ar{border:0}
+.ta-spread .sp-en{border-right:1px solid rgba(215,202,179,.18)}
+.ta-spread .s1{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#C0A184}
+.sp-ar .s1{letter-spacing:0;font-size:13px}
+.ta-spread .s2{font-weight:300;font-size:clamp(26px,2.4vw,38px);line-height:1.1}
+.sp-ar .s2{font-weight:400;line-height:1.45}
+.ta-spread .s2 em{font-style:italic;color:#C0A184}
+.ta-spread .s3{margin:0;font-size:14px;line-height:1.65;color:rgba(215,202,179,.85);font-weight:300}
+@media (max-width:860px){
+  .tph-tx{position:static;width:auto;padding:22px 20px;background:#e8dfcf}
+  .tapp{grid-template-columns:1fr}
+  .ta{min-height:300px}
+}
+
+
+/* guideline pages: one typeface per page, like a brand book spread */
+.gp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,1.2vw,16px);margin-top:clamp(10px,1.2vw,16px)}
+.gpage{container-type:inline-size;aspect-ratio:16/10;background:var(--bg);color:var(--ink);border-radius:4px;overflow:hidden;display:grid;grid-template-rows:auto auto 1fr;position:relative}
+.gp-bar{display:grid;grid-template-columns:1fr 1fr 2fr .7fr;border-bottom:1px solid color-mix(in srgb,var(--ink) 22%,transparent);font-family:"Inter Tight",sans-serif;font-size:max(8px,1.5cqw);letter-spacing:.08em;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+.gp-bar span{padding:1.6cqw 2cqw;border-left:1px solid color-mix(in srgb,var(--ink) 22%,transparent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gp-bar span:first-child{border-left:0;color:var(--ink);letter-spacing:.2em}
+.gp-bar span:last-child{text-align:right}
+.gp-t{margin:0;padding:3cqw 3.4cqw 0;font-weight:300;font-size:max(20px,6cqw);line-height:1;text-transform:uppercase;letter-spacing:.01em}
+.gp-body{display:grid;grid-template-columns:1.05fr 1fr;align-items:end;gap:3cqw;padding:0 3.4cqw 4cqw}
+.gp-aa{font-size:26cqw;line-height:.86;color:var(--ink);font-weight:400}
+.gp-aa[dir=rtl]{font-size:20cqw;line-height:1.6;justify-self:start}
+.g-jo.gp-aa,.g-px.gp-aa{font-weight:300}
+.gp-spec{display:grid;gap:.9cqw;align-content:end;padding-bottom:1cqw}
+.gp-name{font-family:"Inter Tight",sans-serif;font-size:max(9px,1.6cqw);letter-spacing:.22em;text-transform:uppercase;color:var(--acc);margin-bottom:1cqw}
+.gp-l{font-size:max(15px,4.4cqw);line-height:1.12;white-space:nowrap}
+.gp-l[dir=rtl]{text-align:left;line-height:1.4}
+.gp-st{margin-top:1.6cqw;font-family:"Inter Tight",sans-serif;font-size:max(9px,1.5cqw);color:color-mix(in srgb,var(--ink) 70%,transparent);display:grid;gap:.4cqw}
+.gp-st b{font-weight:500;color:var(--ink)}
+/* simple motion */
+.gpage .gp-bar,.gpage .gp-t,.gpage .gp-spec > *{opacity:0;transform:translateY(10px);transition:opacity .9s ease,transform 1s cubic-bezier(.2,.8,.2,1)}
+.gpage .gp-aa{opacity:0;transform:translateX(-6%);transition:opacity 1.2s ease .15s,transform 1.4s cubic-bezier(.16,1,.3,1) .15s}
+.gpage .gp-aa[dir=rtl]{transform:translateX(6%)}
+.gpage.in .gp-bar,.gpage.in .gp-t,.gpage.in .gp-spec > *,.gpage.in .gp-aa{opacity:1;transform:none}
+.gpage.in .gp-t{transition-delay:.1s}
+.gpage.in .gp-spec > :nth-child(1){transition-delay:.3s}.gpage.in .gp-spec > :nth-child(2){transition-delay:.4s}.gpage.in .gp-spec > :nth-child(3){transition-delay:.5s}.gpage.in .gp-spec > :nth-child(4){transition-delay:.6s}.gpage.in .gp-spec > :nth-child(5){transition-delay:.7s}
+.gp .gpage:nth-child(2n){transition-delay:.12s}
+@media (max-width:860px){
+  .gp{grid-template-columns:1fr}
+  .gpage{aspect-ratio:auto}
+  .gp-bar{grid-template-columns:1fr 1fr .6fr}.gp-bar span:nth-child(3){display:none}
+  .gp-t{padding:22px 20px 0;font-size:26px}
+  .gp-body{grid-template-columns:1fr;padding:6px 20px 24px;gap:10px}
+  .gp-aa{font-size:38vw}
+  .gp-aa[dir=rtl]{font-size:30vw;line-height:1.7}
+  .gp-l{font-size:22px;white-space:normal}
+}
+@media (prefers-reduced-motion:reduce){.gpage .gp-bar,.gpage .gp-t,.gpage .gp-spec > *,.gpage .gp-aa{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body class="brandpage" style="--brand:#202625;--brand-ink:#D7CAB3">
+
+<a class="corner tl s" href="../index.html">Tarek Tawfiek</a>
+<a class="corner tr s" href="../index.html#branding">All branding</a>
+<a class="corner bl s" href="../index.html">← Back</a>
+<a class="corner br s" href="../bahkaly/index.html">Next: Bahkaly</a>
+
+<header class="hero fit">
+  <img src="img/hero.jpg" alt="The SHM monogram in bronze on a limestone wall beside a dark wooden entrance, a man in a thobe walking in" width="2000" height="1401">
+</header>
+
+<main>
+<section class="dark pad">
+  <div class="title">
+    <h1 class="big">Shahm</h1>
+    <p class="s dim">Brand identity proposal · Royal luxury · <span lang="ar" dir="rtl">شهم</span></p>
+  </div>
+  <div class="facts"><div><span class="s dim">Client</span><b>Arabian Dyar · Shahm Special Projects</b></div><div><span class="s dim">Project</span><b>Boutique luxury brand identity</b></div><div><span class="s dim">Scope</span><b>Mark, wordmarks, applications</b></div><div><span class="s dim">Role</span><b>Art direction</b></div></div>
+</section>
+
+<section class="dark pad">
+  <div class="thesis">
+    <h2 class="big rv">The brief: boutique luxury.</h2>
+    <p class="rv">Shahm asked for a boutique, luxurious brand, the opposite of a construction company. No hard hats, no cranes, no heavy industrial type. An identity that feels as considered as the palaces and private villas it builds, for clients who notice every detail.</p>
+  </div>
+</section>
+
+<section class="brand pad">
+  <div class="thesis">
+    <h2 class="big rv">A name that already carries weight.</h2>
+    <p class="rv">شهم means noble, gallant, principled: someone you trust with the most important things. Shahm builds palaces, mosques, schools and plants for clients who notice everything, so the brand had to feel like a trusted custodian, never a construction company. No hardhats, no cranes, no raw industrial imagery.</p>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">01 · Direction</span><h2 class="big">Royal luxury</h2></div>
+    <p class="rv">الفخامة الملكية. Warm light, limestone, linen and space: luxury that is felt before it is announced.</p>
+  </div>
+  <div class="slides after"><figure class="rv wide"><div class="work"><img src="img/s-i-020-036.jpg" alt="A woman in a cream abaya at a tall window with sheer curtains, warm light across a limestone wall" loading="lazy" width="2000" height="1116"></div></figure></div>
+</section>
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">02 · Concept</span><h2 class="big">Three letters, one signature</h2></div>
+    <p class="rv">S, H and M interlock into a single monogram: long upright strokes meeting fine curves, precise in its detail and steady in its presence.</p>
+  </div>
+  <div class="cols2 after"><div class="rv" lang="ar" dir="rtl"><h3>فكرة الهوية</h3><p>تجسّد الهوية فخامةً بحضورٍ متفرّد. تتداخل حروف شهم الإنجليزية SHM في رمزٍ واحد يجمع بين الخطوط الممتدة والانحناءات الدقيقة، ليمنح العلامة طابعها الخاص؛ هويةٌ متقنة في تفاصيلها، راسخة في حضورها.</p></div><div class="rv" lang="ar" dir="rtl"><h3>المنطلق الإبداعي</h3><p>الفخامة الحقيقية لا تحتاج إلى المبالغة؛ تظهر في دقّة التفاصيل وانسجام العناصر. وحين يحمل الاسم هيبته الخاصة، تصبح هويته توقيعًا لا يشبه سواه.</p></div></div>
+  <div class="slides after"><figure class="rv"><div class="work"><img src="img/s-i-022-040.jpg" alt="The SHM monogram pressed into a bronze wax seal" loading="lazy" width="2000" height="1116"></div></figure><figure class="rv"><div class="work"><img src="img/s-i-022-041.jpg" alt="Pencil construction of the SHM monogram" loading="lazy" width="2000" height="1116"></div></figure></div>
+</section>
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">03 · The mark</span><h2 class="big">A seal, not a logo</h2></div>
+    <p class="rv">The monogram sits between a widely spaced Latin wordmark and an Arabic logotype, dated EST. 2026 like a house crest. On its own it can be cast in bronze, carved in stone or pressed in wax.</p>
+  </div>
+  <div class="lv">
+    <div class="w6 k rv"><img src="img/logo-gold.png" alt="Shahm primary logo: SHAHM Special Projects, the SHM monogram and the Arabic شهم للمشاريع الخاصة in bronze on charcoal" loading="lazy" width="3481" height="704"><span>Primary · Bronze &amp; limestone on Noble Charcoal</span></div>
+  </div>
+</section>
+
+<section class="light pad phase" style="padding-top:0">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">04 · Logo variations</span><h2 class="big">One family, every scale</h2></div>
+    <p class="rv">Horizontal for signage and screens, stacked and vertical for print, a pure wordmark for small sizes, and the crest alone for seals, embossing and the app icon.</p>
+  </div>
+  <div class="lv">
+    <div class="w6 b rv"><img src="img/logo-stone.png" alt="Primary logo in Riyadh Limestone on Dark Walnut" loading="lazy" width="3481" height="704"><span>Primary · Limestone on Walnut</span></div>
+    <div class="w3 c rv"><img src="img/var-stack.png" alt="Stacked logo: Arabic شهم over SHAHM with the monogram beside" loading="lazy" width="878" height="358"><span>Stacked</span></div>
+    <div class="w3 c rv"><img src="img/var-vert.png" alt="Vertical logo: the monogram above SHAHM Special Projects" loading="lazy" width="584" height="403"><span>Vertical</span></div>
+    <div class="w2 c rv"><img src="img/wordmark.png" alt="Wordmark: Arabic شهم over SHAHM" loading="lazy"><span>Wordmark</span></div>
+    <div class="w2 k rv"><img src="img/mono-gold.png" alt="The SHM crest with EST. 2026 in bronze" loading="lazy" width="1716" height="1714"><span>Crest</span></div>
+    <div class="w2 l rv"><img src="img/mono-gold.png" alt="The SHM crest in bronze on limestone" loading="lazy" width="1716" height="1714"><span>Crest on Limestone</span></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">05 · Typography</span><h2 class="big">Two scripts, one voice</h2></div>
+    <p class="rv">The wordmark pairs widely tracked serif capitals with a refined Arabic logotype. The supporting type system extends that voice: a classical serif and a quiet geometric sans in Latin, matched by a calligraphic naskh and a clean modern sans in Arabic.</p>
+  </div>
+  <div class="ty rv">
+    <img src="img/wordmark.png" alt="The Shahm wordmark: Arabic شهم above SHAHM in serif capitals" loading="lazy">
+  </div>
+  <figure class="tph rv">
+    <img src="img/s-i-020-036.jpg" alt="A woman in a cream abaya at a tall window, warm light across a limestone wall" loading="lazy" width="2000" height="1116">
+    <figcaption class="tph-tx">
+      <span class="tph-k">Primary typefaces</span>
+      <span class="tph-en g-cg"><span>Stature,</span> <em>built.</em></span>
+      <span class="tph-ar g-am" lang="ar" dir="rtl">الفخامة <em>الملكية</em></span>
+      <span class="tph-f">Cormorant Garamond &nbsp;·&nbsp; Amiri</span>
+    </figcaption>
+  </figure>
+  <div class="tf rv">
+    <div class="tf-top"><span>Type system</span><span>Shahm · Special Projects</span></div>
+    <div class="tf-hero">
+      <p class="tf-en">Exceptional projects,<br><em>precisely delivered.</em></p>
+      <p class="tf-ar" lang="ar" dir="rtl">مشاريع استثنائية،<br><span>تُنجز بإتقان.</span></p>
+    </div>
+  </div>
+  <div class="gp">
+    <article class="gpage rv" style="--bg:#202625;--ink:#F4F0E8;--acc:#C0A184">
+      <div class="gp-bar"><span>SHAHM</span><span>Typography</span><span>© 2026 Shahm Special Projects</span><span>05 / 08</span></div>
+      <h3 class="gp-t g-cg">Primary</h3>
+      <div class="gp-body">
+        <span class="gp-aa g-cg">Aa</span>
+        <div class="gp-spec">
+          <span class="gp-name">Cormorant Garamond</span>
+          <span class="gp-l g-cg">AaBbCcDdEeFfGg</span>
+          <span class="gp-l g-cg">1234567890</span>
+          <span class="gp-l g-cg">@#$%&*?</span>
+          <span class="gp-st"><b>Style</b>Light · Medium · Italic</span>
+        </div>
+      </div>
+    </article>
+    <article class="gpage rv" style="--bg:#D7CAB3;--ink:#202625;--acc:#4C352B">
+      <div class="gp-bar"><span>SHAHM</span><span>Typography</span><span>© 2026 Shahm Special Projects</span><span>06 / 08</span></div>
+      <h3 class="gp-t g-cg">Secondary</h3>
+      <div class="gp-body">
+        <span class="gp-aa g-jo">Aa</span>
+        <div class="gp-spec">
+          <span class="gp-name">Jost</span>
+          <span class="gp-l g-jo">AaBbCcDdEeFfGg</span>
+          <span class="gp-l g-jo">1234567890</span>
+          <span class="gp-l g-jo">@#$%&*?</span>
+          <span class="gp-st"><b>Style</b>Light · Regular</span>
+        </div>
+      </div>
+    </article>
+    <article class="gpage rv" style="--bg:#4C352B;--ink:#F4F0E8;--acc:#D7B48E">
+      <div class="gp-bar"><span>SHAHM</span><span>Typography</span><span>© 2026 Shahm Special Projects</span><span>07 / 08</span></div>
+      <h3 class="gp-t g-cg">Arabic primary</h3>
+      <div class="gp-body">
+        <span class="gp-aa g-am" lang="ar" dir="rtl">أب</span>
+        <div class="gp-spec">
+          <span class="gp-name">Amiri</span>
+          <span class="gp-l g-am" lang="ar" dir="rtl">ا ب ت ث ج ح خ د ذ ر</span>
+          <span class="gp-l g-am" lang="ar" dir="rtl">١٢٣٤٥٦٧٨٩٠</span>
+          <span class="gp-l g-am" lang="ar" dir="rtl">؟ ، ؛ « »</span>
+          <span class="gp-st"><b>Style</b>Regular · Bold</span>
+        </div>
+      </div>
+    </article>
+    <article class="gpage rv" style="--bg:#967154;--ink:#F4F0E8;--acc:#F4F0E8">
+      <div class="gp-bar"><span>SHAHM</span><span>Typography</span><span>© 2026 Shahm Special Projects</span><span>08 / 08</span></div>
+      <h3 class="gp-t g-cg">Arabic secondary</h3>
+      <div class="gp-body">
+        <span class="gp-aa g-px" lang="ar" dir="rtl">أب</span>
+        <div class="gp-spec">
+          <span class="gp-name">IBM Plex Sans Arabic</span>
+          <span class="gp-l g-px" lang="ar" dir="rtl">ا ب ت ث ج ح خ د ذ ر</span>
+          <span class="gp-l g-px" lang="ar" dir="rtl">١٢٣٤٥٦٧٨٩٠</span>
+          <span class="gp-l g-px" lang="ar" dir="rtl">؟ ، ؛ « »</span>
+          <span class="gp-st"><b>Style</b>Light · Medium</span>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="tapp">
+    <figure class="ta ta-stone rv">
+      <div class="ta-plq">
+        <span class="p1 g-am" lang="ar">شهم للمشاريع الخاصة</span>
+        <span class="p2 g-cg">SHAHM</span>
+        <span class="p3 g-jo">Special Projects &nbsp;·&nbsp; Riyadh</span>
+      </div>
+      <figcaption><span>Signage</span><span>Engraved limestone</span></figcaption>
+    </figure>
+    <figure class="ta ta-walnut rv">
+      <div class="ta-card">
+        <span class="c1 g-jo">By private invitation</span>
+        <span class="c2 g-cg">An evening at <em>Al Nakheel</em></span>
+        <span class="c3 g-am" lang="ar" dir="rtl">يسعدنا حضوركم</span>
+        <span class="c4 g-jo">Thursday 12 March &nbsp;·&nbsp; 8 pm</span>
+      </div>
+      <figcaption><span>Invitation</span><span>Bronze foil on cotton card</span></figcaption>
+    </figure>
+    <figure class="ta ta-page rv">
+      <div class="ta-spread">
+        <div class="sp-en"><span class="s1 g-jo">Chapter 01</span><b class="s2 g-cg">Beyond the <em>expected.</em></b><p class="s3 g-jo">Every project begins with listening, and ends with a building that speaks for itself.</p></div>
+        <div class="sp-ar" dir="rtl" lang="ar"><span class="s1 g-px">الفصل الأول</span><b class="s2 g-am">أبعد من المتوقع.</b><p class="s3 g-px">كل مشروع يبدأ بالإصغاء، وينتهي بمبنى يتحدث عن نفسه.</p></div>
+      </div>
+      <figcaption><span>Editorial</span><span>Bilingual hierarchy</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">06 · Colour</span><h2 class="big">Taken from the materials</h2></div>
+    <p class="rv">Four colours lifted from the things Shahm builds with: charcoal stone, Riyadh limestone, bronze fittings and dark walnut.</p>
+  </div>
+  <div class="pal4 rv">
+    <div style="--c:#202625;--d:0s"><i></i><b>Noble Charcoal</b><span>#202625<br>CMYK 16 · 0 · 3 · 85<br>RGB 32 · 38 · 37</span></div>
+    <div style="--c:#D7CAB3;--d:.14s" class="lt"><i></i><b>Riyadh Limestone</b><span>#D7CAB3<br>CMYK 0 · 6 · 17 · 16<br>RGB 215 · 202 · 179</span></div>
+    <div style="--c:#967154;--d:.28s"><i></i><b>Mineral Bronze</b><span>#967154<br>CMYK 0 · 25 · 44 · 41<br>RGB 150 · 113 · 84</span></div>
+    <div style="--c:#4C352B;--d:.42s"><i></i><b>Dark Walnut</b><span>#4C352B<br>CMYK 0 · 30 · 43 · 70<br>RGB 76 · 53 · 43</span></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">07 · Brand mark</span><h2 class="big">Carved, not printed</h2></div>
+    <p class="rv">The crest is meant for material: pressed into limestone at the entrance, embossed into dark stone, felt before it is read.</p>
+  </div>
+  <div class="bm2">
+    <figure class="rv"><div class="work"><img src="img/mark-wall.jpg" alt="The SHM crest embossed into a sunlit limestone wall beside a dark entrance, a man in a thobe walking in" loading="lazy" width="2200" height="1541"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/mark-stone.jpg" alt="The bronze EST. 2026 crest over dark travertine, woven fabric and aged brass" loading="lazy" width="1066" height="1584"></div></figure>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">08 · Imagery</span><h2 class="big">Light, stone, people</h2></div>
+    <p class="rv">Warm sun on limestone and wood, calm architecture, and Saudi families at ease in the spaces Shahm builds. Never a site, never a machine.</p>
+  </div>
+  <div class="img6">
+    <figure class="rv"><div class="work"><img src="img/img-1.jpg" alt="Curved limestone architecture at dusk" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/img-2.jpg" alt="A cantilevered limestone villa over still water" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/img-3.jpg" alt="A Saudi family walking through a sunlit courtyard" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/img-4.jpg" alt="A couple touching a carved stone wall" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/img-5.jpg" alt="A limestone facade lit gold at blue hour" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/img-6.jpg" alt="A family gathering over Arabic coffee" loading="lazy"></div></figure>
+  </div>
+  <div class="ed3 after">
+    <figure class="rv"><div class="work"><img src="img/poster-1.jpg" alt="The crest on a dark wall beside a courtyard tree, a woman walking past" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/poster-2.jpg" alt="A Saudi woman looking up in warm light beside walnut panels" loading="lazy"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/poster-3.jpg" alt="A Saudi family walking through a shaded courtyard" loading="lazy"></div></figure>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">09 · In the world</span><h2 class="big">Quiet luxury, in place</h2></div>
+    <p class="rv">A charcoal brand book with the crest blind-embossed, a walnut box of the materials Shahm builds with, and screens on the city's grandest boulevards at night.</p>
+  </div>
+  <div class="duo">
+    <figure class="rv"><div class="work"><img src="img/book.jpg" alt="Charcoal brand book with the embossed crest, open on a Stature, Built spread" loading="lazy" width="2072" height="1554"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/materials.jpg" alt="A walnut box of stone, wood and fabric samples with the crest on the lid" loading="lazy" width="2061" height="1546"></div></figure>
+  </div>
+  <figure class="rv after"><div class="work"><img src="img/ooh.jpg" alt="Three illuminated Shahm screens on a palace boulevard at night" loading="lazy" width="2200" height="1228"></div><figcaption class="cap s dim"><span>Out of home</span><span>Night boulevard screens</span></figcaption></figure>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">10 · Social</span><h2 class="big">A feed like an invitation</h2></div>
+    <p class="rv">Few words, warm stone light and space to breathe: Vision, made tangible. Beyond the expected. Lives, in alignment.</p>
+  </div>
+  <div class="phones-bg rv"><div class="phones" style="--n:3">
+    <div class="phone" data-ig="Shahm" data-screens="img/sm-1.jpg" aria-label="Shahm post: Vision, made tangible"></div>
+    <div class="phone" data-ig="Shahm" data-screens="img/sm-2.jpg" aria-label="Shahm post: Beyond the expected"></div>
+    <div class="phone" data-ig="Shahm" data-screens="img/sm-3.jpg" aria-label="Shahm post: Lives, in alignment"></div>
+  </div></div>
+</section>
+
+<section class="brand pad">
+  <div class="close">
+    <h2 class="big rv">Precisely<br>delivered.</h2>
+    <p class="rv">A brand that earns trust before a word is spoken.</p>
+  </div>
+  <figure class="close-img rv"><div class="work"><img src="img/close.jpg" alt="Shahm digital screens at night in front of a palace facade" loading="lazy" width="2000" height="1116"></div></figure>
+</section>
+
+<footer class="pad next-wrap">
+  <a class="next" href="../bahkaly/index.html">
+    <img class="tz" src="../bahkaly/img/hero.jpg" alt="" loading="lazy">
+    <span class="s dim">Next brand</span>
+    <span class="big">Bahkaly</span>
+  </a>
+</footer>
+</main>
+
+<div class="lb" id="lb" hidden><img alt=""><button type="button">Close</button></div>
+<script src="../case.js"></script>
+</body>
+</html>

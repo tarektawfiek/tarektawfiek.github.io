@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Palma Sola — Tarek Tawfiek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Palma Sola Beach: brand identity for a slow-living beach club. Mark, colour, type, stationery, social and packaging. Case study by Tarek Tawfiek, Senior Art Director.">
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash)addEventListener("DOMContentLoaded",function(){scrollTo({top:0,left:0,behavior:"instant"})});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="../case.css">
+<style>
+/* Palma Sola: sand, lagoon and a slow serif */
+:root{--lagoon:#4CBFBB;--deep:#0B8F91;--sand:#E5E6CF;--sun:#E9BA70;--night:#161513}
+.sand{background:var(--sand);color:#1d2b2a}
+.sand .ph-head p,.sand .cap{color:#4b5a57}
+.sand .s.dim{color:#6f7d78}
+.lagoon{background:linear-gradient(135deg,var(--deep),var(--lagoon) 70%);color:var(--sand)}
+.lagoon .thesis p{color:rgba(229,230,207,.86)}
+.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;font-style:italic;letter-spacing:-.01em;text-transform:none}
+.thesis h2.serif{font-size:clamp(60px,9vw,150px);line-height:.92}
+.close h2.serif{font-size:clamp(72px,12vw,210px);line-height:.9}
+.ps-rule{display:flex;align-items:center;justify-content:center;gap:18px;color:var(--sun);margin:0 auto clamp(24px,3vw,40px)}
+.ps-rule svg{width:56px;height:14px}
+
+/* the mark, set live */
+.ps-marks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+.ps-tile{aspect-ratio:4/5;display:grid;place-items:center;border-radius:4px;overflow:hidden;position:relative}
+.ps-tile img{width:74%;height:auto}
+.ps-tile.t1{background:#F2F2E4;box-shadow:inset 0 0 0 1px rgba(29,43,42,.08)}.ps-tile.t2{background:var(--deep)}.ps-tile.t3{background:var(--night)}
+.ps-tile.t3 img{filter:none}
+.ps-tile .lbl{position:absolute;left:16px;right:16px;bottom:14px;display:flex;justify-content:space-between;font-size:12px;font-weight:500;letter-spacing:.02em;opacity:.7}
+.ps-tile.t1 .lbl{color:#1d2b2a}.ps-tile.t2 .lbl,.ps-tile.t3 .lbl{color:var(--sand)}
+@media (max-width:860px){.ps-marks{grid-template-columns:1fr}.ps-tile{aspect-ratio:16/10}.ps-tile img{width:62%}}
+
+/* colour */
+.ps-pal{display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr 1fr;gap:clamp(8px,1vw,14px);min-height:clamp(320px,38vw,520px)}
+.ps-sw{border-radius:4px;padding:clamp(14px,1.6vw,22px);display:flex;flex-direction:column;justify-content:space-between;font-size:13px;line-height:1.35}
+.ps-sw b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(24px,2.2vw,34px);line-height:1;margin-bottom:6px}
+.ps-sw span{opacity:.75;font-variant-numeric:tabular-nums}
+.ps-sw.g{background:linear-gradient(120deg,var(--deep) 0%,var(--lagoon) 45%,#cfe0c4 75%,var(--sun) 100%);color:var(--sand)}
+.ps-sw.c1{background:var(--lagoon);color:#0e3a39}.ps-sw.c2{background:var(--deep);color:var(--sand)}
+.ps-sw.c3{background:var(--sand);color:#1d2b2a;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}.ps-sw.c4{background:var(--sun);color:#3d2a0c}
+.ps-sw.c5{background:var(--night);color:var(--sand)}
+@media (max-width:860px){.ps-pal{grid-template-columns:1fr 1fr;min-height:0}.ps-sw{min-height:150px}.ps-sw.g{grid-column:1/-1;min-height:200px}}
+
+/* type */
+.ps-type{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(10px,1.2vw,16px)}
+.ps-face{border-radius:4px;padding:clamp(22px,3vw,44px);display:flex;flex-direction:column;justify-content:space-between;gap:clamp(28px,4vw,64px);min-height:clamp(380px,40vw,560px)}
+.ps-face.f1{background:var(--sand);color:var(--deep)}
+.ps-face.f2{background:var(--deep);color:var(--sand)}
+.ps-face .top{display:flex;justify-content:space-between;gap:12px;font-size:13px;font-weight:500;opacity:.8}
+.ps-face .gly{line-height:.85;font-size:clamp(110px,15vw,240px)}
+.ps-face.f1 .gly{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic}
+.ps-face.f2 .gly{font-family:Raleway,sans-serif;font-weight:300;letter-spacing:-.03em}
+.ps-face .set{font-size:clamp(18px,1.6vw,24px);line-height:1.35;max-width:26ch}
+.ps-face.f1 .set{font-family:"Cormorant Garamond",Georgia,serif;font-size:clamp(22px,2vw,30px)}
+.ps-face.f2 .set{font-family:Raleway,sans-serif;font-weight:300;letter-spacing:.14em;text-transform:uppercase;font-size:clamp(14px,1.1vw,17px)}
+.ps-line{margin-top:clamp(10px,1.2vw,16px);background:var(--night);color:var(--sand);border-radius:4px;padding:clamp(40px,6vw,96px) clamp(20px,3vw,44px);text-align:center;font-size:clamp(30px,5vw,84px);line-height:1}
+.ps-line .r{font-family:Raleway,sans-serif;font-weight:300;letter-spacing:.16em;font-size:.6em;vertical-align:.12em}
+.ps-line .c{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;color:var(--lagoon)}
+@media (max-width:860px){.ps-type{grid-template-columns:1fr}.ps-face{min-height:320px}}
+
+/* elements */
+.ps-els{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(29,43,42,.16)}
+.ps-els div{padding:clamp(36px,5vw,72px) 12px 22px;display:grid;justify-items:center;gap:22px;text-align:center}
+.ps-els div + div{border-left:1px solid rgba(29,43,42,.16)}
+.ps-els svg{height:clamp(70px,8vw,120px);width:auto;max-width:70%;overflow:visible}.ps-els svg *{vector-effect:non-scaling-stroke;stroke-width:1.8}.ps-els .w svg{height:clamp(26px,3vw,40px);margin-block:clamp(22px,2.5vw,40px)}
+.ps-els span{font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:#6f7d78}
+@media (max-width:860px){.ps-els{grid-template-columns:repeat(2,minmax(0,1fr))}.ps-els div:nth-child(3){border-left:0}.ps-els div:nth-child(n+3){border-top:1px solid rgba(29,43,42,.16)}}
+.sand .phones-bg{background:#dcdcc2}
+</style>
+</head>
+<body style="--brand:#0B8F91;--brand-ink:#E5E6CF">
+
+<a class="corner tl s" href="../index.html">Tarek Tawfiek</a>
+<a class="corner tr s" href="../index.html#branding">All branding</a>
+<a class="corner bl s" href="../index.html">← Back</a>
+<a class="corner br s" href="../still-young/index.html">Next: Still Young</a>
+
+<header class="hero">
+  <img src="img/hero.jpg" alt="A woman in linen walking barefoot along a turquoise shoreline, the Palma Sola Beach logo set in sand-white on the sea" width="2400" height="1351" style="object-position:50% 50%">
+</header>
+
+<main>
+<section class="dark pad">
+  <div class="title">
+    <h1 class="big">Palma Sola</h1>
+    <p class="s dim">Brand identity · Beach club · Sea breeze, slow days</p>
+  </div>
+  <div class="facts">
+    <div><span class="s dim">Client</span><b>Palma Sola Beach</b></div>
+    <div><span class="s dim">Project</span><b>Brand identity</b></div>
+    <div><span class="s dim">Scope</span><b>Mark, colour, type, elements, stationery, social, packaging</b></div>
+    <div><span class="s dim">Role</span><b>Art direction</b></div>
+  </div>
+</section>
+
+<section class="lagoon pad">
+  <div class="thesis">
+    <h2 class="serif rv">Sea breeze,<br>slow days.</h2>
+    <p class="rv">Palma Sola is a beach club for people who came to do nothing, beautifully. The identity borrows the calm of old seaside architecture and the colour of shallow water at noon, then gets out of the way: one hand-drawn mark, four quiet colours and a serif that sounds like a whisper.</p>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">01 · Inspiration</span><h2 class="big">Whitewashed and sun-bleached</h2></div>
+    <p class="rv">Rounded balconies, tall single palms, chrome on an old convertible and a long flat horizon. The mood is post-war seaside modernism, seen in black and white so only shape and light remain.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/mood-deco.jpg" alt="Black and white moodboard: art deco seaside facades, a lone palm, curved balconies, the open sea and a vintage car" loading="lazy" width="2400" height="675"></div></figure>
+</section>
+
+<section class="sand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">02 · The mark</span><h2 class="big">A palm, a sun, one wave</h2></div>
+    <p class="rv">A brush-script logotype with a single emblem tucked between the words: a palm against a half sun, carried on a wave that runs into the letters. It is drawn on a strict grid so the loose script still sits true.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/construct.jpg" alt="The Palma Sola Beach logo drawn on its construction grid, in soft olive on sand" loading="lazy" width="2400" height="1351"></div><figcaption class="cap s dim"><span>Construction</span><span>Script, emblem and baseline on one grid</span></figcaption></figure>
+  <div class="ps-marks after">
+    <div class="ps-tile t1 rv"><img src="img/logo-lagoon.png" alt="Palma Sola Beach logo in deep lagoon on sand" loading="lazy" width="1749" height="628"><span class="lbl"><span>Primary</span><span>Lagoon on sand</span></span></div>
+    <div class="ps-tile t2 rv"><img src="img/logo-sand.png" alt="Palma Sola Beach logo in sand on deep lagoon" loading="lazy" width="1749" height="628"><span class="lbl"><span>Reverse</span><span>Sand on lagoon</span></span></div>
+    <div class="ps-tile t3 rv"><img src="img/logo-sand.png" alt="Palma Sola Beach logo in sand on night" loading="lazy" width="1749" height="628"><span class="lbl"><span>Evening</span><span>Sand on night</span></span></div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">03 · In light</span><h2 class="big">Palm shadow, noon to dusk</h2></div>
+    <p class="rv">The mark is always shown the way the club is felt: under moving shade. Lagoon by day, night for the evening service, and a sea-to-sand gradient for the moments in between.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/mark-lagoon.jpg" alt="The logo in sand on lagoon, crossed by soft palm-leaf shadows" loading="lazy" width="2400" height="1349"></div></figure>
+  <div class="duo after">
+    <figure class="rv"><div class="work"><img src="img/mark-night.jpg" alt="The logo in lagoon on a near-black background with faint palm shadows" loading="lazy" width="2400" height="1349"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/mark-gradient.jpg" alt="The logo in sand on a gradient from deep lagoon to warm sun" loading="lazy" width="2400" height="1351"></div></figure>
+  </div>
+</section>
+
+<section class="sand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">04 · Colour</span><h2 class="big">Shallow water at noon</h2></div>
+    <p class="rv">Two lagoons for the sea, sand for the ground, a late-afternoon sun for warmth and a soft night for evenings. The gradient is the whole palette in one breath and is kept for hero moments only.</p>
+  </div>
+  <div class="ps-pal rv">
+    <div class="ps-sw g"><span>Signature gradient</span><div><b>Sea to sun</b><span>Deep lagoon → lagoon → sun</span></div></div>
+    <div class="ps-sw c1"><span>01</span><div><b>Lagoon</b><span>#4CBFBB</span></div></div>
+    <div class="ps-sw c2"><span>02</span><div><b>Deep lagoon</b><span>#0B8F91</span></div></div>
+    <div class="ps-sw c3"><span>03</span><div><b>Sand</b><span>#E5E6CF</span></div></div>
+    <div class="ps-sw c4"><span>04</span><div><b>Sun</b><span>#E9BA70</span></div></div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">05 · Typography</span><h2 class="big">A whisper and a breath</h2></div>
+    <p class="rv">Cormorant Garamond in italic carries the feeling; Raleway Light, widely tracked in capitals, carries the facts. Set together they become the brand's line: SEA <i>breeze</i> SLOW <i>days</i>.</p>
+  </div>
+  <div class="ps-type">
+    <div class="ps-face f1 rv"><div class="top"><span>Cormorant Garamond</span><span>Italic · Display</span></div><div class="gly">Aa</div><div class="set">Long lunches, linen and the sound of the sea.</div></div>
+    <div class="ps-face f2 rv"><div class="top"><span>Raleway</span><span>Light · Text</span></div><div class="gly">Aa</div><div class="set">Guest relations · Reservations · Open daily from 9</div></div>
+  </div>
+  <div class="ps-line rv"><span class="r">SEA</span> <span class="c">breeze</span> <span class="r">SLOW</span> <span class="c">days</span></div>
+</section>
+
+<section class="sand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">06 · Elements</span><h2 class="big">Drawn with one line</h2></div>
+    <p class="rv">A small set of hairline marks taken from the emblem: the wave, the sun, the palm. They sign off posts, punctuate menus and sit quietly in the corner of a card.</p>
+  </div>
+  <div class="ps-els rv">
+    <div class="w"><svg viewBox="0 0 120 40" aria-hidden="true"><path d="M4 26c14-16 26-16 38-6s24 12 38-2 26-12 36 2" fill="none" stroke="#4CBFBB" stroke-width="3" stroke-linecap="round"/></svg><span>Wave</span></div>
+    <div><svg viewBox="0 0 60 70" aria-hidden="true"><path d="M8 62V40C8 22 18 8 30 8s22 14 22 32v22M4 62h52" fill="none" stroke="#E9BA70" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sun</span></div>
+    <div><svg viewBox="0 0 60 120" aria-hidden="true"><g fill="none" stroke="#7fcdbf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M31 118V30"/><path d="M31 30c-4-10-14-15-24-12 8 1 15 5 20 12"/><path d="M31 30c4-10 14-15 24-12-8 1-15 5-20 12"/><path d="M31 30c-8-4-18-2-23 6 7-3 15-3 21-1"/><path d="M31 30c8-4 18-2 23 6-7-3-15-3-21-1"/><path d="M31 30c-2-9 2-18 8-22-3 7-4 14-6 21"/><path d="M31 30c2-9-2-18-8-22 3 7 4 14 6 21"/></g></svg><span>Palm</span></div>
+    <div class="w"><svg viewBox="0 0 120 40" aria-hidden="true"><path d="M4 22c10 8 22 10 34 2s24-10 36 0 26 8 42-6" fill="none" stroke="#0B8F91" stroke-width="3" stroke-linecap="round"/></svg><span>Tide</span></div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">07 · Stationery</span><h2 class="big">Paper you want to keep</h2></div>
+    <p class="rv">Heavy cotton card in sand and deep lagoon, the logo blind-tinted on one side and Guest Relations set in the italic on the other.</p>
+  </div>
+  <div class="stack">
+    <figure class="rv"><div class="work"><img src="img/cards.jpg" alt="Sand and deep lagoon business cards on a stone table by the sea with a cup of coffee" loading="lazy" width="2400" height="1349"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/cards-flat.jpg" alt="Front and back of the business cards in lagoon and sand laid out on black" loading="lazy" width="2400" height="1351"></div></figure>
+  </div>
+</section>
+
+<section class="sand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">08 · Photography</span><h2 class="big">Caught doing nothing</h2></div>
+    <p class="rv">Natural light, linen, rattan and real laughter. Photographs alternate with flat colour and the mark, so the grid breathes like the place.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/mood-grid.jpg" alt="Photography grid: a woman in a linen dress on the shore, the logo on night and lagoon, a terrace with umbrellas, a couple laughing over coffee and a rattan chair with a woven bag" loading="lazy" width="2400" height="1350"></div></figure>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">09 · Social</span><h2 class="big">An arch-shaped window</h2></div>
+    <p class="rv">Every post looks through the same soft arch, the shape of the sun in the emblem. Type posts use the brand line on the gradient; stories rotate the system across lagoon, sand and sun.</p>
+  </div>
+  <div class="phones-bg rv"><div class="phones" style="--n:3">
+    <div class="phone" data-ig="palmasolabeach" data-screens="img/post-1.jpg" aria-label="Palma Sola post: a woman smiling at a seaside table, framed in an arch"></div>
+    <div class="phone" data-ig="palmasolabeach" data-screens="img/post-2.jpg" aria-label="Palma Sola post: SEA breeze SLOW days on the lagoon gradient"></div>
+    <div class="phone" data-ig="palmasolabeach" data-screens="img/post-3.jpg" aria-label="Palma Sola post: a quiet cove framed in an arch"></div>
+  </div></div>
+  <figure class="rv after"><div class="work"><img src="img/stories.jpg" alt="A tilted wall of Palma Sola stories: arch-framed photographs and SEA breeze SLOW days and SALT and sunshine type cards" loading="lazy" width="2400" height="1351"></div></figure>
+</section>
+
+<section class="sand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">10 · Packaging</span><h2 class="big">Take the shade home</h2></div>
+    <p class="rv">Gift boxes in night and lagoon with a palm-shadow emboss, and shopping bags in sand and black with lagoon rope handles.</p>
+  </div>
+  <div class="stack">
+    <figure class="rv"><div class="work"><img src="img/boxes.jpg" alt="A black and a lagoon gift box with the logo, on a stone counter beside lemons and the sea" loading="lazy" width="2400" height="1349"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/bags.jpg" alt="A sand and a black shopping bag with lagoon handles on a terrace table" loading="lazy" width="2400" height="1351"></div></figure>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">11 · On site</span><h2 class="big">On the terrace wall</h2></div>
+    <p class="rv">The poster system in place: logo on night, an arch of real life and the line along the foot, in a sun-warmed limestone café.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/poster.jpg" alt="A framed Palma Sola poster on a limestone café wall, beach umbrellas and the sea beyond" loading="lazy" width="2400" height="1351"></div></figure>
+</section>
+
+<section class="lagoon pad">
+  <div class="close">
+    <div class="ps-rule rv" aria-hidden="true"><svg viewBox="0 0 56 14"><path d="M2 9c8-8 14-8 20-3s14 6 20-1 10-5 12-1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+    <h2 class="serif rv">Until next time.</h2>
+    <p class="rv" style="color:rgba(229,230,207,.86)">A brand that asks nothing of its guests: a palm, a sun, one wave, and the quiet promise of a slow day by the sea.</p>
+  </div>
+</section>
+
+<footer class="pad next-wrap">
+  <a class="next" href="../still-young/index.html">
+    <img class="tz" src="../still-young/img/hero.jpg" alt="" loading="lazy">
+    <span class="s dim">Next brand</span>
+    <span class="big">Still Young</span>
+  </a>
+</footer>
+</main>
+
+<div class="lb" id="lb" hidden><img alt=""><button type="button">Close</button></div>
+<script src="../case.js"></script>
+</body>
+</html>

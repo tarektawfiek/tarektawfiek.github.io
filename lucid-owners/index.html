@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lucid Owners Club — Tarek Tawfiek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Lucid Owners Club video series: «على طريقك» On Your Way and «حكايات بين عالمين» Stories Between Two Worlds. Case study by Tarek Tawfiek, Senior Art Director.">
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash)addEventListener("DOMContentLoaded",function(){scrollTo({top:0,left:0,behavior:"instant"})});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&display=swap">
+<link rel="stylesheet" href="../case.css">
+<style>
+.series{text-align:center;padding:clamp(80px,11vw,170px) 0 clamp(60px,8vw,120px)}
+.series .s{display:block;margin-bottom:22px}
+.series .ar{display:block;direction:rtl;font-weight:800;font-size:clamp(64px,12vw,210px);line-height:1;margin:0}
+.series .en{display:block;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:clamp(22px,2.6vw,42px);margin-top:14px;opacity:.6}
+.series p{margin:clamp(22px,2.6vw,36px) auto 0;max-width:46ch;font-size:clamp(16px,1.35vw,20px);line-height:1.45;opacity:.85}
+.tri{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line-d);margin-top:clamp(28px,3vw,44px)}
+.light .tri{border-color:var(--line)}
+.tri div{padding:18px 16px 4px 0;display:grid;gap:8px;align-content:start}
+.tri div + div{padding-left:16px;border-left:1px solid var(--line-d)}
+.light .tri div + div{border-left-color:var(--line)}
+.tri b{font-weight:800;text-transform:uppercase;font-size:clamp(22px,2.2vw,34px);line-height:.9;letter-spacing:-.01em}
+.tri p{margin:0;font-size:15px;line-height:1.5;opacity:.75}
+.eps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+.ep{border:1px solid var(--line);border-radius:6px;padding:clamp(18px,2vw,28px);display:grid;gap:12px;align-content:start}
+.ep .s{color:var(--dim)}
+.ep .ar{direction:rtl;font-weight:800;font-size:clamp(24px,2.4vw,38px);line-height:1.2}
+.ep .en{font-weight:500;font-size:15px;color:#555}
+.ep q{display:block;direction:rtl;font-size:clamp(17px,1.4vw,21px);line-height:1.5;border-top:1px solid var(--line);padding-top:12px;quotes:none}
+.ep q + span{font-size:14px;color:#777}
+.blocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line-d);margin-top:clamp(24px,3vw,40px)}
+.blocks div{padding:16px 16px 18px 0;display:grid;gap:6px;border-bottom:1px solid var(--line-d)}
+.blocks div:not(:nth-child(3n+1)){padding-left:16px;border-left:1px solid var(--line-d)}
+.blocks b{font-weight:800;text-transform:uppercase;font-size:clamp(17px,1.5vw,22px)}
+.blocks p{margin:0;font-size:14px;line-height:1.5;color:#bdbdbd}
+.feat{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(8px,1vw,14px)}
+.feat div{background:#f3f3f1;border-radius:6px;padding:16px;display:grid;gap:8px;align-content:start;min-height:170px}
+.feat b{font-weight:800;text-transform:uppercase;font-size:15px;line-height:1.05}
+.feat p{margin:0;font-size:13.5px;line-height:1.45;color:#444}
+.tall3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+.tall3 img{aspect-ratio:4/5;object-fit:cover}
+.arche{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px);margin-top:clamp(10px,1.2vw,16px)}
+.arche div{border-top:1px solid var(--line);padding-top:14px;display:grid;gap:6px}
+.arche b{font-weight:800;text-transform:uppercase;font-size:clamp(17px,1.5vw,22px)}
+.arche p{margin:0;font-size:14px;line-height:1.5;color:#555}
+.deliv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line-d)}
+.deliv div{padding:20px 16px 0 0;display:grid;gap:8px;align-content:start}
+.deliv div + div{padding-left:16px;border-left:1px solid var(--line-d)}
+.deliv b{font-weight:800;text-transform:uppercase;font-size:clamp(20px,2vw,30px);line-height:.95}
+.deliv .s{color:#3cbf7a}
+.deliv p{margin:0;font-size:14px;line-height:1.5;color:#bdbdbd}
+@media (max-width:1100px){.feat{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:860px){
+  .tri,.blocks,.arche{grid-template-columns:1fr}.eps{grid-template-columns:1fr}
+  .tri div + div,.blocks div:not(:nth-child(3n+1)){padding-left:0;border-left:0}
+  .tri div + div{border-top:1px solid var(--line-d)}
+  .feat{grid-template-columns:1fr 1fr}.tall3{grid-template-columns:1fr 1fr}.tall3 > :first-child{grid-column:1/-1}
+  .deliv{grid-template-columns:1fr 1fr;row-gap:20px}.deliv div + div{border-left:0;padding-left:0}
+}
+</style>
+</head>
+<body>
+
+<a class="corner tl s" href="../index.html">Tarek Tawfiek</a>
+<a class="corner tr s" href="../index.html#work">All projects</a>
+<a class="corner bl s" href="../index.html">← Back</a>
+<a class="corner br s" href="../haval-h7/index.html">Next: Haval H7</a>
+
+<header class="hero">
+  <img src="img/hero.jpg" alt="Two Saudi men laughing in conversation inside a Lucid on a sunlit city drive" width="2048" height="1143" style="object-position:50% 45%">
+</header>
+
+<main>
+<section class="dark pad">
+  <div class="title">
+    <h1 class="big">Lucid Owners Club</h1>
+    <p class="s dim">Video series · Two owner-led concepts for Saudi Arabia</p>
+  </div>
+  <div class="facts">
+    <div><span class="s dim">Client</span><b>Lucid Motors · KSA</b></div>
+    <div><span class="s dim">Series</span><b><span lang="ar">على طريقك</span> · <span lang="ar">حكايات بين عالمين</span></b></div>
+    <div><span class="s dim">Scope</span><b>Series concepts, episodes, shot design, feature moments, b-roll, deliverables</b></div>
+    <div><span class="s dim">Role</span><b>Creative concept &amp; art direction</b></div>
+  </div>
+</section>
+
+<section class="dark pad">
+  <div class="thesis">
+    <h2 class="big rv">In the Gulf, a drive is never a straight line.</h2>
+    <p class="rv">A simple ride turns into a chain of stops, conversations and side missions before it reaches anywhere. That movement is where life actually happens, so the owners, not the spec sheet, became the story.</p>
+  </div>
+</section>
+
+<!-- Series 01 -->
+<section class="light pad">
+  <div class="series">
+    <span class="s dim rv">Series 01</span>
+    <span class="ar rv" lang="ar">على طريقك</span>
+    <span class="en rv">On Your Way</span>
+    <p class="rv">A short-form, unscripted road series. Lucid owners take the host on spontaneous drives in their own car, talking about life, habits and what changed since they got a Lucid. It's not about where they're going, it's how they feel along the way.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/twoshot.jpg" alt="Wide two-shot inside a Lucid: host and owner side by side under the glass roof" loading="lazy" width="2048" height="1143"></div></figure>
+  <div class="tri rv">
+    <div><b>Genuine</b><p>Ownership humanised through real, unscripted conversation.</p></div>
+    <div><b>Progressive</b><p>Lucid as part of lifestyle growth, not a product demo.</p></div>
+    <div><b>Relatable</b><p>A distinctly regional habit, so the story feels native, not imported.</p></div>
+  </div>
+</section>
+
+<section class="light pad phase" style="padding-top:clamp(40px,5vw,80px)">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">01 · Episodes</span><h2 class="big">One question per drive</h2></div>
+    <p class="rv">Each episode is built around a single honest question, moving viewers from curiosity to consideration to pride.</p>
+  </div>
+  <div class="eps">
+    <div class="ep rv"><span class="s">Season 1 · Consideration</span><span class="ar" lang="ar">قبل ما تشتري</span><span class="en">Before You Decide</span><q lang="ar">وش كان الشيء اللي خلّاك تقول "خلاص، لازم أجربها"؟</q><span>What made you say "I need to try this"?</span></div>
+    <div class="ep rv"><span class="s">Season 1 · EV myths</span><span class="ar" lang="ar">تغيّر القناعة</span><span class="en">Rethinking Electric</span><q lang="ar">وش أكثر فكرة عن السيارات الكهربائية تغيّرت عندك بعد لوسد؟</q><span>What were you most wrong about with EVs?</span></div>
+    <div class="ep rv"><span class="s">Season 2 · Pride</span><span class="ar" lang="ar">من رؤية إلى فخر</span><span class="en">From Belief to Pride</span><q lang="ar">وش يعني لك إنك تسوق لوسد اليوم في السعودية؟</q><span>What does driving a Lucid in Saudi mean to you today?</span></div>
+    <div class="ep rv"><span class="s">Season 2 · Everyday trust</span><span class="ar" lang="ar">كل يوم بشكل مختلف</span><span class="en">Everyday, Reimagined</span><q lang="ar">كيف حسّنت لوسد يومك وهل غيّرت أسلوب حياتك؟</q><span>How did Lucid improve your life without forcing you to change it?</span></div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">02 · On the road</span><h2 class="big">Four fixed angles, then the stops</h2></div>
+    <p class="rv">Inside: a wide two-shot, owner close-up, host close-up and an over-the-shoulder from the back seat. Between them, swappable scene blocks keep the rhythm moving while the conversation flows.</p>
+  </div>
+  <div class="duo">
+    <figure class="rv"><div class="work"><img src="img/roof.jpg" alt="Owner close-up: the driver under the panoramic glass roof, eyes on the road" loading="lazy" width="2048" height="1143"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/dusk.jpg" alt="Host and owner walking from a café at dusk past the Lucid's tail lights" loading="lazy" width="2048" height="1143"></div></figure>
+  </div>
+  <div class="duo" style="margin-top:clamp(10px,1.2vw,16px)">
+    <figure class="rv"><div class="work"><img src="img/charge.jpg" alt="Charging stop: the owner plugging in his Lucid outside a café" loading="lazy" width="2048" height="1143"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/pickup.jpg" alt="Family pickup outside a villa with bougainvillea" loading="lazy" width="2048" height="1143"></div></figure>
+  </div>
+  <div class="blocks rv">
+    <div><b>Coffee stop</b><p>Grab cups, lean on the car, keep talking.</p></div>
+    <div><b>Charging stop</b><p>The car charges while the chat moves outside.</p></div>
+    <div><b>Scenic overlook</b><p>Corniche, skyline or a desert ridge.</p></div>
+    <div><b>Car wash</b><p>Hands-on pride of ownership.</p></div>
+    <div><b>Food run</b><p>Shawarma on the back seat, conversation on.</p></div>
+    <div><b>Family pickup</b><p>The car fills with new energy and laughter.</p></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">03 · Feature moments</span><h2 class="big">Features you live, not read</h2></div>
+    <p class="rv">No spec sheets. Each feature is woven into the drive so viewers discover it the way an owner does.</p>
+  </div>
+  <div class="tall3">
+    <figure class="rv"><div class="work"><img src="img/frunk.jpg" alt="The frunk break: host and owner sitting on the open front trunk with drinks" loading="lazy" width="2048" height="2048"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/screen.jpg" alt="A finger tapping the wide cockpit screen" loading="lazy" width="1638" height="2048"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/coffee.jpg" alt="The owner and host ordering at a specialty coffee bar" loading="lazy" width="1720" height="960"></div></figure>
+  </div>
+  <div class="feat after">
+    <div class="rv"><b>The start</b><p>No engine, no vibration. «ما حسّيت إنها مشت».</p></div>
+    <div class="rv"><b>The silence</b><p>City noise outside, only their voices inside.</p></div>
+    <div class="rv"><b>The sudden pull</b><p>Instant surge, a laugh, then back to the chat.</p></div>
+    <div class="rv"><b>The glass roof</b><p>Sky passing overhead, light across their faces.</p></div>
+    <div class="rv"><b>The sound moment</b><p>A favourite track fills the cabin on Surreal Sound.</p></div>
+    <div class="rv"><b>The comfort cue</b><p>Massage seat on, a small smile, talk continues.</p></div>
+    <div class="rv"><b>The frunk break</b><p>Cold drinks from the front trunk at a stop.</p></div>
+    <div class="rv"><b>The app check</b><p>Range and charge at a glance, just a habit.</p></div>
+    <div class="rv"><b>The navigation beat</b><p>The route loads before he finishes speaking.</p></div>
+    <div class="rv"><b>The storage reveal</b><p>More space than the host expected.</p></div>
+  </div>
+  <ol class="steps after rv">
+    <li><span class="s dim">01</span><b>The pickup</b><em>Handshake, walk to the car.</em></li>
+    <li><span class="s dim">02</span><b>Drive begins</b><em>Doors close, a silent start.</em></li>
+    <li><span class="s dim">03</span><b>The interview</b><em>Four angles, the heart of the episode.</em></li>
+    <li><span class="s dim">04</span><b>Scene block 1</b><em>A stop from the owner's world.</em></li>
+    <li><span class="s dim">05</span><b>Back in the car</b><em>Deeper: why Lucid, what it means.</em></li>
+    <li><span class="s dim">06</span><b>The ending</b><em>A wave goodbye, taillights fading.</em></li>
+  </ol>
+  <figcaption class="cap s dim"><span>Episode arc · 3–5 min long-form</span><span>Plus 30–60 sec vertical cutdowns</span></figcaption>
+</section>
+
+<!-- Series 02 -->
+<section class="dark pad">
+  <div class="series">
+    <span class="s dim rv">Series 02</span>
+    <span class="ar rv" lang="ar">حكايات بين عالمين</span>
+    <span class="en rv">Stories Between Two Worlds</span>
+    <p class="rv">Not every journey is measured by distance. A cinematic series about real owners and the moments between who they are and who they're becoming, told between the Lucid Air and the Lucid Gravity.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/two-worlds.jpg" alt="A Lucid Air and a Lucid Gravity on a mirror-still salt flat at sunset" loading="lazy" width="2048" height="1143"></div></figure>
+  <div class="tri rv">
+    <div><b>Air</b><p>Ambition and forward motion.</p></div>
+    <div><b>Gravity</b><p>Presence and grounded decisions.</p></div>
+    <div><b>The drive</b><p>Where one world fades and another begins.</p></div>
+  </div>
+</section>
+
+<section class="dark pad phase" style="padding-top:clamp(40px,5vw,80px)">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">04 · The owners</span><h2 class="big">A glimpse through their eyes</h2></div>
+    <p class="rv">Each episode follows one owner: who they are, what they do and why they chose Lucid. Interview, cinematic b-roll and the owner's own footage blend into one honest film.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/interview.jpg" alt="An owner seated beside his Lucid Air outside a villa, speaking to camera" loading="lazy" width="2048" height="1143"></div></figure>
+  <div class="tall3 after">
+    <figure class="rv"><div class="work"><img src="img/smile.jpg" alt="An owner smiling behind the wheel of his Lucid" loading="lazy" width="2048" height="2048"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/desert.jpg" alt="Two Lucids small on a desert ridge under a single cloud" loading="lazy" width="1650" height="2048"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/cockpit.jpg" alt="The glowing glass cockpit of a Lucid at night" loading="lazy" width="1639" height="2048"></div></figure>
+  </div>
+  <div class="tri rv">
+    <div><b>Human</b><p>Honest conversations about who they are and how they see life.</p></div>
+    <div><b>Layered</b><p>Interviews, b-roll and owner footage moving between reality and perspective.</p></div>
+    <div><b>Reflective</b><p>Lucid as a space for quiet clarity between destinations.</p></div>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">05 · Look &amp; place</span><h2 class="big">Golden light, three kinds of owner</h2></div>
+    <p class="rv">Between luxury automotive film and honest human storytelling: rich golden light, shallow depth of field, and a camera that never tries too hard. Each owner gets a world that fits.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/locations.jpg" alt="Location triptych: a desert highway at golden hour, a palm-lined corniche and a villa driveway" loading="lazy" width="2048" height="1143"></div></figure>
+  <div class="arche rv">
+    <div><b>Adrenaline</b><p>Desert highways at golden hour, an empty Red Sea road.</p></div>
+    <div><b>Planet-conscious</b><p>Sustainable buildings and gardens in Riyadh or Jeddah.</p></div>
+    <div><b>Family-forward</b><p>Villa driveways, family compounds, a beachside chalet.</p></div>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">06 · B-roll</span><h2 class="big">What words can't say</h2></div>
+    <p class="rv">Three layers of b-roll: the owner's rituals with the car, the car alone as sculpture, and the owner's personal world in VHS-treated home footage.</p>
+  </div>
+  <div class="tall3">
+    <figure class="rv"><div class="work"><img src="img/mirror.jpg" alt="Eyes in the rear-view mirror, a calm glance before pulling out" loading="lazy" width="916" height="761"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/broll-car.jpg" alt="Grid of car-alone shots: light bar, headlight macro, wheels and profile" loading="lazy" width="1650" height="2048"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/home-video.jpg" alt="Grid of home-video stills with VHS timecode: family moments and a child running" loading="lazy" width="1650" height="2048"></div></figure>
+  </div>
+  <div class="pills"><span>A · The owner and the car</span><span>B · The car on its own</span><span>C · Their world, on VHS</span></div>
+</section>
+
+<section class="dark pad phase" style="padding-top:0">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">07 · Deliverables</span><h2 class="big">One shoot, every screen</h2></div>
+    <p class="rv">Each episode is cut for every platform from the same footage.</p>
+  </div>
+  <div class="deliv rv">
+    <div><span class="s">16:9</span><b>Hero film</b><p>3–6 min for «على طريقك», 1–2 min for «حكايات بين عالمين». YouTube, website, Owners Club.</p></div>
+    <div><span class="s">16:9</span><b>Mid-length cut</b><p>30–90 sec condensed emotional arc. LinkedIn, X, paid digital.</p></div>
+    <div><span class="s">9:16</span><b>Vertical cutdowns</b><p>15–60 sec best moments and quotes. Reels, TikTok, Shorts, Snapchat.</p></div>
+    <div><span class="s">16:9 + 9:16</span><b>Teaser</b><p>15–30 sec pre-release hook, paid and organic.</p></div>
+  </div>
+</section>
+
+<section class="dark pad">
+  <div class="close">
+    <h2 class="big rv">Not where they go.<br>How they feel.</h2>
+    <p class="rv">Two series, one belief: the best way to sell Lucid in the Kingdom is to let its owners tell the story, on the road and in their own words.</p>
+  </div>
+  <figure class="close-img rv"><div class="work"><img src="img/incar.jpg" alt="An owner at the wheel of his Lucid at night, the cabin softly lit" loading="lazy" width="2048" height="1366"></div></figure>
+</section>
+
+<footer class="pad next-wrap">
+  <a class="next" href="../haval-h7/index.html">
+    <img class="tz" src="../haval-h7/img/teaser.jpg" alt="" loading="lazy">
+    <span class="s dim">Next project</span>
+    <span class="big">Haval H7</span>
+  </a>
+</footer>
+</main>
+
+<div class="lb" id="lb" hidden><img alt=""><button type="button">Close</button></div>
+<script src="../case.js"></script>
+</body>
+</html>

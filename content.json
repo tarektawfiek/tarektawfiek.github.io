@@ -1,0 +1,978 @@
+{
+ "corners": {
+  "tl": "Tarek Tawfiek",
+  "bl": "Senior Art Director",
+  "br": "Brief me"
+ },
+ "hero": {
+  "kicker": "Tarek Tawfiek · Senior Art Director · KSA · Qatar · UAE · Egypt",
+  "h1": "Fluent in\nfour markets.",
+  "pitch": "I've built campaigns in Saudi Arabia, Qatar, the UAE and Egypt for airlines, EV makers, telcos, FMCG brands and government. My craft lives between the blank page and the launch: ideation that finds the one idea worth building, and art direction that brings that vision to life, frame by frame.",
+  "ctaA": "See the proof",
+  "ctaB": "Brief me",
+  "photo": "about/tarek-3.jpg",
+  "capL": "",
+  "capR": ""
+ },
+ "work": {
+  "label": "Projects",
+  "hint": "Ten projects · click to open",
+  "items": [
+   {
+    "name": "Bugles World Cup 26",
+    "img": "bugles/img/thumb.jpg",
+    "link": "bugles/index.html",
+    "client": "Bugles · KSA",
+    "line": "Every crunch scores a point. A World Cup league fans join from inside the pack.",
+    "tags": [
+     "Campaign",
+     "Gamification",
+     "Packaging",
+     "In-store"
+    ],
+    "cover": "bugles/img/kv-launch.jpg",
+    "coverAlt": "Bugles World Cup key visual: fans celebrating on a stadium pitch with Bugles packs",
+    "logo": "logos/bugles.png",
+    "logoAR": 1.37,
+    "brand": "Bugles",
+    "title": "World Cup 26"
+   },
+   {
+    "name": "Orbit Now",
+    "img": "gallery/kv-12-s.jpg",
+    "link": "orbit/index.html",
+    "client": "Orbit Now · GCC",
+    "line": "«ما يحتاج تمثّل» No need to act. A campaign, a brighter brand and a new interface.",
+    "tags": [
+     "Campaign",
+     "Identity refresh",
+     "UI"
+    ],
+    "cover": "orbit/img/kv-1.jpg",
+    "coverAlt": "Orbit Now key visual: the same man lifting weights and holding a rose",
+    "logo": "logos/orbit.png",
+    "logoAR": 1.567,
+    "brand": "Orbit Now",
+    "title": "Be yourself, NOW"
+   },
+   {
+    "name": "Lucid Owners Club",
+    "img": "lucid-owners/img/hero.jpg",
+    "link": "lucid-owners/index.html",
+    "client": "Lucid Motors · KSA",
+    "line": "«على طريقك» and «حكايات بين عالمين» Two owner-led video series where the drive, not the spec sheet, tells the story.",
+    "tags": [
+     "Video series",
+     "Content concept",
+     "Shot design",
+     "Social"
+    ],
+    "cover": "lucid-owners/img/hero.jpg",
+    "coverAlt": "Two Saudi men in conversation inside a Lucid on a city drive",
+    "logo": "logos/lucid.png",
+    "logoAR": 17.4,
+    "brand": "Lucid",
+    "title": "Owners Club"
+   },
+   {
+    "name": "Haval H7",
+    "img": "gallery/kv-05-s.jpg",
+    "link": "haval-h7/index.html",
+    "client": "GWM · Haval",
+    "line": "Every driver has their own road. Teaser, reveal and launch night for the H7.",
+    "tags": [
+     "Launch",
+     "Teaser",
+     "OOH",
+     "Event"
+    ],
+    "cover": "haval-h7/img/kv.jpg",
+    "coverAlt": "Haval H7 kicking up dust on a desert track",
+    "logo": "logos/haval.png",
+    "logoAR": 5.833,
+    "brand": "Haval",
+    "title": "H7 Launch"
+   },
+   {
+    "name": "Red Bananas × SND 96",
+    "img": "rb-snd/img/cover.jpg",
+    "link": "rb-snd/index.html",
+    "client": "Red Bananas · agency brand",
+    "line": "«كل إنجاز نحققه… بداية لإنجاز أكبر» A National Day film from Saudi heritage and character to today’s achievements, and the agency’s role in telling them.",
+    "tags": [
+     "National Day",
+     "Film",
+     "Script & VO",
+     "Art direction"
+    ],
+    "cover": "rb-snd/img/cover.jpg",
+    "coverAlt": "A Saudi man on carved rock at dusk, a mud-brick town and the Riyadh skyline ahead",
+    "logo": "logos/redbananas.png",
+    "logoAR": 1,
+    "brand": "Red Bananas",
+    "title": "National Day 96"
+   },
+   {
+    "name": "Lucid After-Sales",
+    "img": "lucid-after-sales/img/thumb.jpg",
+    "link": "lucid-after-sales/index.html",
+    "client": "Lucid Motors · KSA & UAE",
+    "line": "Lucid doesn’t disappear after delivery. A six-month platform built on one promise: trust that extends.",
+    "tags": [
+     "Platform idea",
+     "Content plan",
+     "Key visuals"
+    ],
+    "cover": "lucid-after-sales/img/hero.jpg",
+    "coverAlt": "The orange Lucid service truck on a desert road",
+    "logo": "logos/lucid.png",
+    "logoAR": 17.4,
+    "brand": "Lucid",
+    "title": "After-Sales"
+   },
+   {
+    "name": "Lucid SND Parade",
+    "img": "lucid-snd/img/hero.jpg",
+    "link": "lucid-snd/index.html",
+    "client": "Lucid Motors · KSA",
+    "line": "«نتحرّك نحو المستقبل» A Lucid fleet crossing the Kingdom from Khobar to AMP-2 for Saudi National Day.",
+    "tags": [
+     "Activation",
+     "National Day",
+     "Fleet livery",
+     "Content plan"
+    ],
+    "cover": "lucid-snd/img/d1-convoy.jpg",
+    "coverAlt": "A convoy of green Lucids in Saudi National Day livery on a Riyadh street",
+    "logo": "logos/lucid.png",
+    "logoAR": 17.4,
+    "brand": "Lucid",
+    "title": "SND Parade"
+   },
+   {
+    "name": "Kohler × INDEX",
+    "img": "kohler-index/img/hero.jpg",
+    "link": "kohler-index/index.html",
+    "client": "Kohler · KSA",
+    "line": "Shoot the booth like a showroom. Photography and video direction for Kohler at INDEX Saudi Arabia.",
+    "tags": [
+     "Photography direction",
+     "Video",
+     "Moodboard",
+     "Event"
+    ],
+    "cover": "kohler-index/img/hero.jpg",
+    "coverAlt": "The Kohler booth at INDEX Saudi Arabia with a freestanding bath",
+    "logo": "logos/kohler.png",
+    "logoAR": 4.615,
+    "brand": "Kohler",
+    "title": "× INDEX Saudi Arabia"
+   },
+   {
+    "name": "Syriatel",
+    "img": "syriatel/img/d2-family.jpg",
+    "link": "syriatel/index.html",
+    "client": "Syriatel · Syria",
+    "line": "«أقرب من أي وقت» Closer Than Ever. A creative platform turning a rebuilt network into a feeling Syrians share.",
+    "tags": [
+     "Creative platform",
+     "Key visuals",
+     "OOH",
+     "Social"
+    ],
+    "cover": "syriatel/img/d2-family.jpg",
+    "coverAlt": "Syriatel key visual: a Syrian family selfie at sunset",
+    "logo": "logos/syriatel.png",
+    "logoAR": 5.621,
+    "brand": "Syriatel",
+    "title": "Closer Than Ever"
+   },
+   {
+    "name": "NAVA",
+    "img": "gallery/kv-04-s.jpg",
+    "client": "NAVA Academy · KSA",
+    "line": "«بشبابنا نبني مستقبلنا» The makers of tomorrow, trained at home.",
+    "tags": [
+     "Key visual",
+     "Recruitment"
+    ],
+    "cover": "gallery/kv-04.jpg",
+    "coverAlt": "NAVA key visual: two young Saudi technicians working on an EV battery",
+    "logo": "logos/nava.png",
+    "logoAR": 6.227,
+    "brand": "NAVA",
+    "title": "Makers of tomorrow"
+   },
+   {
+    "name": "RushBrush",
+    "img": "gallery/kv-10-s.jpg",
+    "client": "RushBrush",
+    "line": "«يومك ميدأش إلا بيها» Your day doesn’t start without it.",
+    "tags": [
+     "Key visual",
+     "Social"
+    ],
+    "cover": "gallery/kv-10.jpg",
+    "coverAlt": "RushBrush key visual in a soft-lit bedroom",
+    "logo": "logos/rushbrush.png",
+    "logoAR": 11.34,
+    "brand": "RushBrush",
+    "title": "Start your day"
+   }
+  ]
+ },
+ "kv": {
+  "title": "Key\nvisuals",
+  "lead": "One frame. One second. One reason to stop.",
+  "desc": "Twenty-one briefs, twenty-one single-frame answers: launches, offers, causes and national moments across four markets. Click any frame to see it full size.",
+  "footL": "",
+  "footR": "GCC · Egypt",
+  "items": [
+   {
+    "name": "Lucid Air",
+    "thumb": "gallery/kv-14-s.jpg",
+    "full": "gallery/kv-14.jpg"
+   },
+   {
+    "name": "Air Arabia",
+    "thumb": "gallery/kv-01-s.jpg",
+    "full": "gallery/kv-01.jpg"
+   },
+   {
+    "name": "NAVA",
+    "thumb": "gallery/kv-04-s.jpg",
+    "full": "gallery/kv-04.jpg"
+   },
+   {
+    "name": "Haval H7",
+    "thumb": "gallery/kv-05-s.jpg",
+    "full": "gallery/kv-05.jpg"
+   },
+   {
+    "name": "Sharjah Charity",
+    "thumb": "gallery/kv-06-s.jpg",
+    "full": "gallery/kv-06.jpg"
+   },
+   {
+    "name": "ECO",
+    "thumb": "gallery/kv-07-s.jpg",
+    "full": "gallery/kv-07.jpg"
+   },
+   {
+    "name": "Subaru",
+    "thumb": "gallery/kv-08-s.jpg",
+    "full": "gallery/kv-08.jpg"
+   },
+   {
+    "name": "Valencia Academy",
+    "thumb": "gallery/kv-21-s.jpg",
+    "full": "gallery/kv-21.jpg"
+   },
+   {
+    "name": "Bugles",
+    "thumb": "gallery/kv-19-s.jpg",
+    "full": "gallery/kv-19.jpg"
+   },
+   {
+    "name": "Kwality",
+    "thumb": "gallery/kv-20-s.jpg",
+    "full": "gallery/kv-20.jpg"
+   },
+   {
+    "name": "Lucid",
+    "thumb": "gallery/kv-02-s.jpg",
+    "full": "gallery/kv-02.jpg"
+   },
+   {
+    "name": "Jillo",
+    "thumb": "gallery/kv-03-s.jpg",
+    "full": "gallery/kv-03.jpg"
+   },
+   {
+    "name": "BYD Han",
+    "thumb": "gallery/kv-09-s.jpg",
+    "full": "gallery/kv-09.jpg"
+   },
+   {
+    "name": "RushBrush",
+    "thumb": "gallery/kv-10-s.jpg",
+    "full": "gallery/kv-10.jpg"
+   },
+   {
+    "name": "du",
+    "thumb": "gallery/kv-11-s.jpg",
+    "full": "gallery/kv-11.jpg"
+   },
+   {
+    "name": "Orbit",
+    "thumb": "gallery/kv-12-s.jpg",
+    "full": "gallery/kv-12.jpg"
+   },
+   {
+    "name": "SEDCO Green Mark",
+    "thumb": "gallery/kv-13-s.jpg",
+    "full": "gallery/kv-13.jpg"
+   },
+   {
+    "name": "SEDCO Big Dreams",
+    "thumb": "gallery/kv-15-s.jpg",
+    "full": "gallery/kv-15.jpg"
+   },
+   {
+    "name": "KitKat",
+    "thumb": "gallery/kv-16-s.jpg",
+    "full": "gallery/kv-16.jpg"
+   },
+   {
+    "name": "GMC",
+    "thumb": "gallery/kv-17-s.jpg",
+    "full": "gallery/kv-17.jpg"
+   },
+   {
+    "name": "BYD Mannai",
+    "thumb": "gallery/kv-18-s.jpg",
+    "full": "gallery/kv-18.jpg"
+   }
+  ]
+ },
+ "brands": {
+  "title": "Brands",
+  "lead": "Global names, regional stakes. Each one trusted me with a market.",
+  "items": [
+   {
+    "name": "Air Arabia",
+    "logo": "logos/air-arabia.png",
+    "shape": "wide"
+   },
+   {
+    "name": "Lucid",
+    "logo": "logos/lucid.png",
+    "shape": "wide"
+   },
+   {
+    "name": "BYD",
+    "logo": "logos/byd.png",
+    "shape": "wide"
+   },
+   {
+    "name": "Bugles",
+    "logo": "logos/bugles.png",
+    "shape": "sq",
+    "scale": 1.35
+   },
+   {
+    "name": "GMC",
+    "logo": "logos/gmc.png",
+    "shape": "wide"
+   },
+   {
+    "name": "Subaru",
+    "logo": "logos/subaru.png",
+    "shape": "wide"
+   },
+   {
+    "name": "GWM",
+    "logo": "logos/gwm.png",
+    "shape": "wide"
+   },
+   {
+    "name": "Sports for All",
+    "logo": "logos/sports-for-all.png",
+    "shape": "wide",
+    "scale": 1.5
+   },
+   {
+    "name": "Haval",
+    "logo": "logos/haval.png",
+    "shape": "wide"
+   },
+   {
+    "name": "du",
+    "logo": "logos/du.png",
+    "shape": "sq"
+   },
+   {
+    "name": "KitKat",
+    "logo": "logos/kitkat.png",
+    "shape": "sq"
+   },
+   {
+    "name": "Ministry of Municipality · Qatar",
+    "logo": "logos/ministry-municipality.png",
+    "shape": "wide",
+    "scale": 1.5
+   },
+   {
+    "name": "Kohler",
+    "logo": "logos/kohler.png",
+    "shape": "wide"
+   },
+   {
+    "name": "SEDCO Holding",
+    "logo": "logos/sedco.png",
+    "shape": "wide",
+    "scale": 1.7
+   },
+   {
+    "name": "Rameez",
+    "logo": "logos/rameez.png",
+    "shape": "wide",
+    "scale": 1.3
+   },
+   {
+    "name": "Sharjah Charity",
+    "logo": "logos/sharjah-charity.png",
+    "shape": "sq"
+   },
+   {
+    "name": "NAVA",
+    "logo": "logos/nava.png",
+    "shape": "wide"
+   },
+   {
+    "name": "Orbit",
+    "logo": "logos/orbit.png",
+    "shape": "sq"
+   }
+  ]
+ },
+ "contact": {
+  "title": "Got a\nbrief?",
+  "line": "",
+  "links": [
+   {
+    "l": "Phone",
+    "v": "+20 10 2740 3300",
+    "h": "tel:+201027403300"
+   },
+   {
+    "l": "Email",
+    "v": "tarek.ahmed.tawfiek@gmail.com",
+    "h": "mailto:tarek.ahmed.tawfiek@gmail.com"
+   },
+   {
+    "l": "LinkedIn",
+    "v": "Tarek Tawfiek",
+    "h": "https://www.linkedin.com/in/tarektawfiek"
+   },
+   {
+    "l": "Behance",
+    "v": "teto27",
+    "h": "https://www.behance.net/teto27"
+   },
+   {
+    "l": "Instagram",
+    "v": "tarek_tawfiek27",
+    "h": "https://www.instagram.com/tarek_tawfiek27/"
+   }
+  ]
+ },
+ "nums": [
+  {
+   "v": "4",
+   "l": "Markets I've launched campaigns in"
+  },
+  {
+   "v": "5",
+   "l": "Agencies & in-house teams, Gulf and Egypt"
+  },
+  {
+   "v": "15+",
+   "l": "Brands, from airlines to EVs"
+  },
+  {
+   "v": "2",
+   "l": "Languages, written natively"
+  }
+ ],
+ "services": {
+  "label": "What you get",
+  "hint": "Senior thinking, hands-on craft",
+  "items": [
+   {
+    "t": "Creative direction",
+    "d": "One idea across every touchpoint, and a team that stays on it."
+   },
+   {
+    "t": "KEY VISUALS",
+    "d": "Hero images that do the selling before the copy does."
+   },
+   {
+    "t": "Film & storyboards",
+    "d": "TVC, social and music films, boarded down to the frame."
+   },
+   {
+    "t": "Pitches & proposals",
+    "d": "Strategy-to-creative decks built to win the room."
+   }
+  ]
+ },
+ "social": {
+  "title": "Social\nmedia",
+  "lead": "Campaigns built for the scroll: thumb-stopping first frames, systems that stay on brand post after post.",
+  "items": [
+   {
+    "name": "Lucid",
+    "desc": "Lucid KSA monthly content: ownership made simple, from charging at home to «أداء يسبق التوقعات», shot in warm Gulf light.",
+    "imgs": [
+     {
+      "t": "work/lucid-june/01.jpg",
+      "f": "work/lucid-june/01.jpg"
+     },
+     {
+      "t": "work/lucid-june/02.jpg",
+      "f": "work/lucid-june/02.jpg"
+     },
+     {
+      "t": "work/lucid-june/03.jpg",
+      "f": "work/lucid-june/03.jpg"
+     },
+     {
+      "t": "work/lucid-june/04.jpg",
+      "f": "work/lucid-june/04.jpg"
+     },
+     {
+      "t": "work/lucid-june/05.jpg",
+      "f": "work/lucid-june/05.jpg"
+     },
+     {
+      "t": "work/lucid-june/06.jpg",
+      "f": "work/lucid-june/06.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Rameez",
+    "desc": "Social content for Rameez: everyday skincare heroes, from Glysolid to Weleda, plus Eid and app moments, each on its own bold colour.",
+    "imgs": [
+     {
+      "t": "work/rameez/01.jpg",
+      "f": "work/rameez/01.jpg"
+     },
+     {
+      "t": "work/rameez/02.jpg",
+      "f": "work/rameez/02.jpg"
+     },
+     {
+      "t": "work/rameez/03.jpg",
+      "f": "work/rameez/03.jpg"
+     },
+     {
+      "t": "work/rameez/04.jpg",
+      "f": "work/rameez/04.jpg"
+     },
+     {
+      "t": "work/rameez/05.jpg",
+      "f": "work/rameez/05.jpg"
+     },
+     {
+      "t": "work/rameez/06.jpg",
+      "f": "work/rameez/06.jpg"
+     },
+     {
+      "t": "work/rameez/07.jpg",
+      "f": "work/rameez/07.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Bugles",
+    "desc": "World Cup activation «دوري عشاق القرمشة»: social posts built for match day, every one with a QR to join the league.",
+    "imgs": [
+     {
+      "t": "bugles/img/s5-s.jpg",
+      "f": "bugles/img/s5.jpg"
+     },
+     {
+      "t": "bugles/img/s4-s.jpg",
+      "f": "bugles/img/s4.jpg"
+     },
+     {
+      "t": "bugles/img/s6-s.jpg",
+      "f": "bugles/img/s6.jpg"
+     },
+     {
+      "t": "bugles/img/s1-s.jpg",
+      "f": "bugles/img/s1.jpg"
+     },
+     {
+      "t": "bugles/img/s2-s.jpg",
+      "f": "bugles/img/s2.jpg"
+     },
+     {
+      "t": "bugles/img/s3-s.jpg",
+      "f": "bugles/img/s3.jpg"
+     }
+    ],
+    "link": "bugles/index.html"
+   },
+   {
+    "name": "Haval",
+    "desc": "Haval after-sales social: genuine parts and service as objects of craft. «راحة بال تستحق الاحتفال», «سيارتك تحفة تستحق العناية», «قطع غيار أصلية بمثابة تحفة فنية».",
+    "imgs": [
+     {
+      "t": "work/haval/01.jpg",
+      "f": "work/haval/01.jpg"
+     },
+     {
+      "t": "work/haval/02.jpg",
+      "f": "work/haval/02.jpg"
+     },
+     {
+      "t": "work/haval/03.jpg",
+      "f": "work/haval/03.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Ecuador",
+    "desc": "Seaside café in Qatar's Pearl: an Instagram feed built around the sea view, from order-online pushes to new drinks, one hero product per post.",
+    "imgs": [
+     {
+      "t": "work/ecuador/4-s.jpg",
+      "f": "work/ecuador/4.jpg"
+     },
+     {
+      "t": "work/ecuador/5-s.jpg",
+      "f": "work/ecuador/5.jpg"
+     },
+     {
+      "t": "work/ecuador/6-s.jpg",
+      "f": "work/ecuador/6.jpg"
+     },
+     {
+      "t": "work/ecuador/1-s.jpg",
+      "f": "work/ecuador/1.jpg"
+     },
+     {
+      "t": "work/ecuador/2-s.jpg",
+      "f": "work/ecuador/2.jpg"
+     },
+     {
+      "t": "work/ecuador/3-s.jpg",
+      "f": "work/ecuador/3.jpg"
+     }
+    ]
+   },
+   {
+    "name": "APEA",
+    "desc": "Ajman Private Education Affairs Office: digital services for parents and students, «خدمات مبتكرة أقرب إليك», innovative services, closer to you.",
+    "imgs": [
+     {
+      "t": "work/apea/01-s.jpg",
+      "f": "work/apea/01.jpg"
+     },
+     {
+      "t": "work/apea/02-s.jpg",
+      "f": "work/apea/02.jpg"
+     },
+     {
+      "t": "work/apea/03-s.jpg",
+      "f": "work/apea/03.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Kohler",
+    "desc": "Premium bathroom wellness for Kohler: water, light, sound and steam as one ritual, from Karing 3.0 to «Reflect Perfection in Every Light».",
+    "imgs": [
+     {
+      "t": "work/kohler/01.jpg",
+      "f": "work/kohler/01.jpg"
+     },
+     {
+      "t": "work/kohler/02.jpg",
+      "f": "work/kohler/02.jpg"
+     },
+     {
+      "t": "work/kohler/03.jpg",
+      "f": "work/kohler/03.jpg"
+     },
+     {
+      "t": "work/kohler/04.jpg",
+      "f": "work/kohler/04.jpg"
+     },
+     {
+      "t": "work/kohler/05.jpg",
+      "f": "work/kohler/05.jpg"
+     },
+     {
+      "t": "work/kohler/06.jpg",
+      "f": "work/kohler/06.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Bareeq Almas",
+    "desc": "Social kit for the Bareeq Almas refresh: one block of vegetable fat, from toast at home to the chefs who trust it, «وهو بريق الماس».",
+    "imgs": [
+     {
+      "t": "work/bareeq-social/01.jpg",
+      "f": "work/bareeq-social/01.jpg"
+     },
+     {
+      "t": "work/bareeq-social/02.jpg",
+      "f": "work/bareeq-social/02.jpg"
+     },
+     {
+      "t": "work/bareeq-social/03.jpg",
+      "f": "work/bareeq-social/03.jpg"
+     },
+     {
+      "t": "work/bareeq-social/04.jpg",
+      "f": "work/bareeq-social/04.jpg"
+     },
+     {
+      "t": "work/bareeq-social/05.jpg",
+      "f": "work/bareeq-social/05.jpg"
+     },
+     {
+      "t": "work/bareeq-social/06.jpg",
+      "f": "work/bareeq-social/06.jpg"
+     }
+    ]
+   },
+   {
+    "name": "Ministry of Municipality",
+    "desc": "Qatar's Ministry of Municipality: social campaign for the Aoun app, from 93 e-services to OTP security, one service per post.",
+    "imgs": [
+     {
+      "t": "work/qatar-otp/01-s.jpg",
+      "f": "work/qatar-otp/01.jpg"
+     },
+     {
+      "t": "work/qatar-otp/02-s.jpg",
+      "f": "work/qatar-otp/02.jpg"
+     },
+     {
+      "t": "work/qatar-otp/03-s.jpg",
+      "f": "work/qatar-otp/03.jpg"
+     },
+     {
+      "t": "work/qatar-otp/04-s.jpg",
+      "f": "work/qatar-otp/04.jpg"
+     }
+    ]
+   }
+  ]
+ },
+ "branding": {
+  "title": "Branding",
+  "lead": "",
+  "items": [
+   {
+    "name": "Still Young",
+    "desc": "«توناشباب» for a programme that keeps people over 50 moving: a forward-leaning Arabic mark, kit, signage and campaign.",
+    "link": "still-young/index.html",
+    "cover": "still-young/img/hero.jpg",
+    "coverAlt": "Orange Still Young t-shirt with the توناشباب wordmark on grey concrete",
+    "w": 2000,
+    "h": 1125,
+    "color": "#F75009",
+    "ink": "#ffffff",
+    "logo": "still-young/img/logo.png",
+    "imgs": [
+     {
+      "t": "still-young/img/hero.jpg",
+      "f": "still-young/img/hero.jpg"
+     }
+    ],
+    "type": "Brand identity"
+   },
+   {
+    "name": "Shahm",
+    "desc": "A seal-like SHM monogram and a palette of stone, bronze and walnut for a luxury contractor of palaces, mosques and schools.",
+    "link": "shahm/index.html",
+    "cover": "shahm/img/hero.jpg",
+    "coverAlt": "The SHM monogram in bronze on a limestone wall beside a dark entrance",
+    "w": 2000,
+    "h": 1401,
+    "color": "#202625",
+    "ink": "#D7CAB3",
+    "logo": "shahm/img/logo.png",
+    "imgs": [
+     {
+      "t": "shahm/img/hero.jpg",
+      "f": "shahm/img/hero.jpg"
+     }
+    ],
+    "type": "Identity proposal"
+   },
+   {
+    "name": "Bahkaly",
+    "desc": "Logistics brand guidelines: an arrow built into the k, carried from stationery to the fleet.",
+    "link": "bahkaly/index.html",
+    "cover": "bahkaly/img/hero.jpg",
+    "coverAlt": "Bahkaly billboard with the green arrow pattern",
+    "w": 1800,
+    "h": 1200,
+    "color": "#23615E",
+    "ink": "#ffffff",
+    "logo": "bahkaly/img/logo.png",
+    "imgs": [
+     {
+      "t": "bahkaly/img/hero.jpg",
+      "f": "bahkaly/img/hero.jpg"
+     }
+    ],
+    "type": "Brand guidelines"
+   },
+   {
+    "name": "Bareeq Almas",
+    "desc": "Brand refresh and social media kit for a plant-based margarine: diamond emblem, engraved illustration, packaging and feed.",
+    "link": "bareeq-almas/index.html",
+    "cover": "bareeq-almas/img/hero.jpg",
+    "coverAlt": "Hands peeling open a blue Bareeq Almas pack",
+    "w": 1894,
+    "h": 1050,
+    "color": "#293289",
+    "ink": "#ffffff",
+    "logo": "bareeq-almas/img/logo.png",
+    "imgs": [
+     {
+      "t": "bareeq-almas/img/hero.jpg",
+      "f": "bareeq-almas/img/hero.jpg"
+     }
+    ],
+    "type": "Brand refresh & social kit"
+   },
+   {
+    "name": "Ladeena",
+    "desc": "Rebranding proposal for a self-care brand: a cleaner wordmark, a colour-coded scents guide and a softer feed.",
+    "link": "ladeena/index.html",
+    "cover": "ladeena/img/hero.jpg",
+    "coverAlt": "A Ladeena business card on draped pink fabric",
+    "w": 1899,
+    "h": 1068,
+    "color": "#C0254F",
+    "ink": "#ffffff",
+    "logo": "ladeena/img/logo.png",
+    "imgs": [
+     {
+      "t": "ladeena/img/hero.jpg",
+      "f": "ladeena/img/hero.jpg"
+     }
+    ],
+    "type": "Rebranding"
+   },
+   {
+    "name": "Ghalatat",
+    "desc": "Logo guidelines and the season 2 social direction for the Ghaltat podcast by Rowad: green gradients, real guests, templates and teaser.",
+    "link": "ghalatat/index.html",
+    "cover": "ghalatat/img/hero.jpg",
+    "coverAlt": "The Ghalatat lockup on deep green with fine leaf arcs",
+    "w": 2400,
+    "h": 1543,
+    "color": "#15443D",
+    "ink": "#A3C66B",
+    "logo": "ghalatat/img/logo.png",
+    "imgs": [
+     {
+      "t": "ghalatat/img/hero.jpg",
+      "f": "ghalatat/img/hero.jpg"
+     }
+    ],
+    "type": "Brand identity & social kit"
+   }
+  ]
+ },
+ "callig": {
+  "title": "Calligraphy",
+  "items": [
+   {
+    "name": "",
+    "img": "callig/c01.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c02.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c03.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c04.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c05.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c06.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c07.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c08.png"
+   },
+   {
+    "name": "",
+    "img": "callig/c09.png"
+   }
+  ]
+ },
+ "music": {
+  "banner": "music/00-profile-banner-no-person-v2.jpg",
+  "profile": "https://suno.com/@oasisdrift_27",
+  "items": [
+   {
+    "ar": "من أول نظرة",
+    "en": "At First Sight",
+    "line": "A room full of people. One glance that changed everything.",
+    "genre": "Oriental melodic house · violin & oud",
+    "cover": "music/01-first-sight.jpg",
+    "audio": "music/t01.m4a",
+    "link": "https://suno.com/song/aca4da9a-e953-4436-be39-89690d752e41",
+    "dur": "3:59"
+   },
+   {
+    "ar": "يا ليل هات آخرك",
+    "en": "Night, Bring Your End",
+    "line": "Two voices, one long night, and a sky slowly turning to dawn.",
+    "genre": "Cinematic deep house duet · flute",
+    "cover": "music/02-night-to-dawn.jpg",
+    "audio": "music/t02.m4a",
+    "link": "https://suno.com/song/51a661a2-291a-4222-af09-b951c046bf5c",
+    "dur": "2:58"
+   },
+   {
+    "ar": "يرجعني الحنين",
+    "en": "Longing Brings Me Back",
+    "line": "Some streets remember what we try to forget.",
+    "genre": "Egyptian mawwal × liquid drum & bass",
+    "cover": "music/03-memory-returns.jpg",
+    "audio": "music/t03.m4a",
+    "link": "https://suno.com/song/7bbdb9a7-377e-407a-a6c2-8d895bb7d31d",
+    "dur": "2:59"
+   },
+   {
+    "ar": "لسه الطريق قدام",
+    "en": "The Road Is Still Ahead",
+    "line": "For the part of you that still believes there is more ahead.",
+    "genre": "Mawwal into euphoric trance",
+    "cover": "music/04-road-ahead.jpg",
+    "audio": "music/t04.m4a",
+    "link": "https://suno.com/song/0621bf9c-c1ec-49a2-8632-43ecae59a03e",
+    "dur": "2:59"
+   },
+   {
+    "ar": "قلبي يحدثني",
+    "en": "My Heart Tells Me",
+    "line": "A quiet surrender to a love felt deeper than words.",
+    "genre": "Hypnotic Oriental deep house · ney & oud",
+    "cover": "music/05-heart-speaks.jpg",
+    "audio": "music/t05.m4a",
+    "link": "https://suno.com/song/62943f48-b0ed-4ab9-bbbe-de0827b6fc50",
+    "dur": "4:19"
+   }
+  ],
+  "label": "AI Music\nProduction",
+  "hint": "Listen on Suno"
+ }
+}

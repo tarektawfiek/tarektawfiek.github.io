@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bareeq Almas — Tarek Tawfiek</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Bareeq Almas (بريق الماس) brand refresh and social media kit: diamond emblem, colour, patterns, engraved illustration, packaging and retail. Case study by Tarek Tawfiek, Senior Art Director.">
+<script>try{history.scrollRestoration="manual"}catch(e){}if(!location.hash)addEventListener("DOMContentLoaded",function(){scrollTo({top:0,left:0,behavior:"instant"})});</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&display=swap">
+<link rel="stylesheet" href="../case.css">
+<style>
+/* Bareeq Almas: a few page-only grids on top of the shared case layout */
+.nat2{align-items:start}.nat2 img{aspect-ratio:auto!important;object-fit:fill!important}
+.mark-hero{display:grid;place-items:center;background:#293289;aspect-ratio:16/8}
+.mark-hero img{width:min(42%,520px);height:auto}
+.pk{display:grid;grid-template-columns:2fr 1fr;gap:clamp(10px,1.2vw,16px);margin-bottom:clamp(10px,1.2vw,16px)}
+.pk .work img{aspect-ratio:4/3;object-fit:cover}
+.pk .big1{grid-row:span 2}.pk .big1 .work{height:100%}.pk .big1 .work img{aspect-ratio:auto;height:100%}
+.pk + .duo{margin-top:0}
+.mk-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+.mk-grid .work{background:#fff;outline:1px solid #ececec;outline-offset:-1px;aspect-ratio:16/9;display:grid;place-items:center;padding:6%}
+.mk-grid .work img{width:100%;height:100%;object-fit:contain}
+.pair{display:grid;grid-template-columns:1.094fr .8fr;gap:clamp(10px,1.2vw,16px);align-items:stretch}
+.pair .work{height:100%}.pair .work img{height:100%;object-fit:cover}
+.bento{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.2vw,16px);align-items:stretch}
+.bento .work{height:100%}.bento .work img{height:100%;object-fit:cover}
+.bento .tall{grid-row:span 2}
+.logo-cycle{position:relative;height:100%;min-height:320px;display:grid;place-items:center;background:var(--lc-bg,#293289);transition:background-color .9s ease}
+.lc-mark{width:min(56%,420px);aspect-ratio:730/403;background:var(--lc-fg,#fff);-webkit-mask:url(img/logo-mask.png) center/contain no-repeat;mask:url(img/logo-mask.png) center/contain no-repeat;transition:background-color .9s ease}
+.lc-name{position:absolute;left:18px;bottom:16px;color:var(--lc-fg,#fff);opacity:.85;transition:color .9s ease}
+/* brand film */
+.bf-slide{position:relative;width:min(88%,1100px);aspect-ratio:var(--ar)}
+.bf-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.bf-slide .k{opacity:0;transform:scale(.97);transition:opacity 1s ease .2s,transform 1.4s cubic-bezier(.2,.7,.2,1) .2s}
+.bf-slide .g{clip-path:inset(0 100% 0 0);transition:clip-path 1.6s cubic-bezier(.6,0,.2,1) .9s}
+.on .bf-slide .k{opacity:1;transform:none}.on .bf-slide .g{clip-path:inset(0 0 0 0)}
+.bf{position:relative;aspect-ratio:16/9;border-radius:6px;overflow:hidden;background:#fff;box-shadow:inset 0 0 0 1px #e8e8ee}
+.bf-sc{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .8s ease}
+.bf-sc.on{opacity:1}
+.bf-sc.blue{background:#293289}
+.bf-logo{display:block;width:min(46%,560px);aspect-ratio:730/403;background:#fff;-webkit-mask:url(img/logo-mask.png) center/contain no-repeat;mask:url(img/logo-mask.png) center/contain no-repeat;transform:scale(.86);opacity:0;transition:transform 1.6s cubic-bezier(.2,.7,.2,1),opacity 1s ease}
+.on .bf-logo{transform:none;opacity:1}
+.bf-logo.ink{background:#293289}
+.bf-shine{opacity:0;display:block;position:absolute;inset:0;background:linear-gradient(110deg,transparent 40%,rgba(41,50,137,.35) 47%,rgba(255,255,255,.9) 50%,rgba(41,50,137,.35) 53%,transparent 60%) no-repeat;background-size:300% 100%;background-position:100% 0;-webkit-mask:url(img/logo-mask.png) center/contain no-repeat;mask:url(img/logo-mask.png) center/contain no-repeat;}
+.on .bf-shine{animation:bfSweep 1.8s cubic-bezier(.4,0,.2,1) 1s both}
+@keyframes bfSweep{0%{opacity:1;background-position:100% 0}90%{opacity:1}100%{opacity:0;background-position:0 0}}
+@keyframes bfShine{to{transform:translateX(120%)}}
+.bf-wrap{position:relative;width:min(46%,560px);aspect-ratio:730/403}
+.bf-wrap .bf-logo{width:100%}
+.bf-box{position:absolute;left:-14%;top:-22%;width:128%;height:144%;overflow:visible}
+.bf-box rect{fill:none;stroke:#BF1E41;stroke-width:1.5;stroke-dasharray:6 6;vector-effect:non-scaling-stroke}
+.bf-box .r{stroke-dasharray:1200;stroke-dashoffset:1200;transition:stroke-dashoffset 1.6s cubic-bezier(.6,0,.2,1) .6s}
+.on .bf-box .r{stroke-dashoffset:0}
+.bf-x{position:absolute;font:600 clamp(11px,1.2vw,15px)/1 "Inter Tight",sans-serif;color:#BF1E41;opacity:0;transform:scale(.4);transition:opacity .5s ease,transform .6s cubic-bezier(.2,.9,.3,1.4)}
+.on .bf-x{opacity:1;transform:none}
+.bf-x.a{left:-18%;top:-22%;transition-delay:1.2s}.bf-x.b{right:-18%;top:-22%;transition-delay:1.35s}.bf-x.c{left:-18%;bottom:-22%;transition-delay:1.5s}.bf-x.d{right:-18%;bottom:-22%;transition-delay:1.65s}
+.bf-note{position:absolute;right:clamp(14px,2.4vw,34px);bottom:clamp(44px,5vw,64px);font:500 clamp(11px,1.1vw,14px)/1 "Inter Tight",sans-serif;color:#BF1E41;opacity:0;transition:opacity .6s ease 2s}
+.on .bf-note{opacity:1}
+.bf-row{display:flex;align-items:center;justify-content:center;gap:clamp(20px,5vw,80px);width:86%}
+.bf-row img{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform 1s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0) * .18s + .2s)}
+.on .bf-row img{opacity:1;transform:none}
+.bf-lock img:first-child{height:clamp(110px,22vw,290px)}.bf-lock img:last-child{height:clamp(80px,15vw,200px)}
+.bf-em{gap:2.4%}.bf-em i{display:block;width:12.5%;aspect-ratio:1;background:url(img/anim/emblems-sprite.png) no-repeat;background-size:600% 100%;background-position:calc(var(--x) * 20%) 0;opacity:0;transform:translateY(24px) scale(.6);transition:opacity .8s ease,transform 1s cubic-bezier(.2,.9,.3,1.3);transition-delay:calc(var(--i,0) * .18s + .2s)}
+.on .bf-em i{opacity:1;transform:none}
+.bf-ic{display:grid;grid-template-columns:repeat(8,1fr);gap:clamp(6px,1.4vw,22px) clamp(10px,2.4vw,40px);width:min(74%,820px)}
+.bf-ic i{display:block;width:100%;aspect-ratio:1;background:url(img/anim/icons-sprite.png) no-repeat;background-size:2400% 100%;background-position:calc(var(--x) * 100% / 23) 0;opacity:0;transform:scale(.4) rotate(-12deg);transition:opacity .5s ease,transform .7s cubic-bezier(.2,.9,.3,1.4);transition-delay:calc(var(--i,0) * .06s + .2s)}
+.on .bf-ic i{opacity:1;transform:none}
+.bf-end{display:grid;justify-items:center;gap:clamp(14px,2vw,26px)}
+.bf-end .bf-logo{width:min(34vw,420px)}
+.bf-end p{margin:0;color:#fff;font:500 clamp(11px,1.2vw,15px)/1 "Inter Tight",sans-serif;letter-spacing:.24em;text-transform:uppercase;opacity:0;transition:opacity .8s ease 1s}
+.on .bf-end p{opacity:.85}
+.bf-ui{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:14px;padding:clamp(10px,1.4vw,18px) clamp(14px,2.4vw,34px);font:500 clamp(11px,1vw,13px)/1 "Inter Tight",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#293289;transition:color .6s ease;z-index:2}
+.bf.dark .bf-ui{color:#fff}
+.bf-ui .bar{flex:1;height:2px;background:currentColor;opacity:.18;position:relative;overflow:hidden}
+.bf-ui .bar i{position:absolute;inset:0;background:currentColor;transform-origin:left;transform:scaleX(0)}
+.bf-ui .n{font-variant-numeric:tabular-nums;opacity:.7}
+@media (max-width:600px){.bf-note{bottom:auto;top:12px;right:14px}.bf-x{font-size:10px}.bf-wrap{width:52%}}
+@media (prefers-reduced-motion:reduce){.bf-sc,.bf-sc *{transition:none!important;animation:none!important}}
+/* premium palette: diamond facets & butter gloss */
+.gem{display:grid;grid-template-columns:2.2fr 1fr 1fr;gap:clamp(8px,1vw,14px);height:clamp(320px,36vw,520px)}
+.gem2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(8px,1vw,14px);margin-top:clamp(8px,1vw,14px);height:clamp(170px,17vw,250px)}
+.sw{position:relative;overflow:hidden;border-radius:6px;background:var(--c);color:#fff;padding:clamp(14px,1.8vw,26px);display:flex;flex-direction:column;justify-content:space-between;clip-path:inset(100% 0 0 0 round 6px);transition:clip-path 1.2s cubic-bezier(.77,0,.18,1) var(--d,0s)}
+.in .sw,.sw.in{clip-path:inset(0 0 0 0 round 6px)}
+.sw.lt{color:#1d2160}
+.sw .top{display:flex;justify-content:space-between;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;opacity:.75;position:relative;z-index:2}
+.sw .bot{position:relative;z-index:2}
+.sw b{display:block;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:clamp(20px,2.4vw,40px);line-height:.9}
+.gem2 .sw b{font-size:clamp(16px,1.5vw,22px)}
+.sw code{font:500 13px/1.5 "Inter Tight",sans-serif;opacity:.8}
+.sw .top,.sw .bot{opacity:0;transform:translateY(10px);transition:opacity .7s ease calc(var(--d,0s) + .8s),transform .7s cubic-bezier(.2,.7,.2,1) calc(var(--d,0s) + .8s)}
+.in .sw .top,.in .sw .bot{opacity:1;transform:none}.in .sw .top{opacity:.75}
+.facet{position:absolute;inset:0;z-index:1;opacity:.32;background:
+ conic-gradient(from 210deg at 62% 38%,rgba(255,255,255,.55),transparent 18%,rgba(255,255,255,.25) 30%,transparent 46%,rgba(255,255,255,.4) 60%,transparent 74%,rgba(255,255,255,.3) 88%,rgba(255,255,255,.55));mix-blend-mode:soft-light}
+.gloss{position:absolute;inset:0;z-index:1;background:radial-gradient(120% 80% at 20% 0%,rgba(255,255,255,.55),transparent 55%),radial-gradient(90% 60% at 100% 100%,rgba(0,0,0,.08),transparent 60%)}
+.glint{position:absolute;z-index:2;width:clamp(14px,1.6vw,22px);aspect-ratio:1;right:18%;top:22%;opacity:0}
+.glint svg{width:100%;height:100%;fill:#fff}
+.in .glint{animation:twinkle 3.6s ease-in-out calc(var(--d,0s) + 1.4s) infinite}
+@keyframes twinkle{0%,60%,100%{opacity:0;transform:scale(.3) rotate(0)}70%{opacity:1;transform:scale(1) rotate(45deg)}82%{opacity:0;transform:scale(.4) rotate(90deg)}}
+.sw .sheen{position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-130%)}
+.in .sw .sheen{animation:bfShine 2s cubic-bezier(.4,0,.2,1) calc(var(--d,0s) + 1s) both}
+.sw:hover .sheen{animation:bfShine 1.2s cubic-bezier(.4,0,.2,1) both}
+.gem-lbl{display:flex;justify-content:space-between;margin:0 0 12px;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8a8a8a}
+.gem2-lbl{margin-top:clamp(22px,2.6vw,36px)}
+@media (max-width:860px){.gem{grid-template-columns:1fr;height:auto}.gem .sw{min-height:150px}.gem2{grid-template-columns:1fr 1fr;height:auto}.gem2 .sw{min-height:130px}}
+.icons-fig{max-width:min(760px,100%);margin:0 auto}
+@media (max-width:860px){.logo-cycle{aspect-ratio:1/1;height:auto}}
+.type-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,1.2vw,16px)}
+@media (max-width:860px){.palette.p7{grid-template-columns:repeat(4,minmax(0,1fr))!important}.mark-hero{aspect-ratio:4/3}.mark-hero img{width:66%}.pk,.bento,.type-grid,.pair,.mk-grid{grid-template-columns:1fr}.pk .big1{grid-row:auto}.bento .tall{grid-row:auto}}
+</style>
+</head>
+<body style="--brand:#293289;--brand-ink:#ffffff">
+
+<a class="corner tl s" href="../index.html">Tarek Tawfiek</a>
+<a class="corner tr s" href="../index.html#branding">All branding</a>
+<a class="corner bl s" href="../index.html">← Back</a>
+<a class="corner br s" href="../ladeena/index.html">Next: Ladeena</a>
+
+<header class="hero fit">
+  <img src="img/hero.jpg" alt="Hands in a pale blue sweater peeling open a blue Bareeq Almas pack" width="1894" height="1050">
+</header>
+
+<main>
+<section class="dark pad">
+  <div class="title">
+    <h1 class="big">Bareeq Almas</h1>
+    <p class="s dim">Brand refresh &amp; social media kit · Al Amoudi Group · <span lang="ar" dir="rtl">بريق الماس</span></p>
+  </div>
+  <div class="facts">
+    <div><span class="s dim">Client</span><b>Al Amoudi Group &amp; Partners</b></div>
+    <div><span class="s dim">Product</span><b>Plant-based margarine</b></div>
+    <div><span class="s dim">Project</span><b>Brand refresh &amp; social media kit</b></div>
+    <div><span class="s dim">Role</span><b>Art direction</b></div>
+  </div>
+</section>
+
+<section class="brand pad">
+  <div class="thesis">
+    <h2 class="big rv">A diamond for the kitchen.</h2>
+    <p class="rv">Bareeq Almas means “diamond shine”. It is a plant-based margarine made to perform like butter for chefs, bakers and home kitchens. The diamond leads, royal blue holds the shelf, golden yellow tastes of butter, and an engraved illustration style gives every pack a sense of heritage.</p>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">01 · The mark</span><h2 class="big">The diamond leads</h2></div>
+    <p class="rv">A faceted diamond over a bilingual badge, with a safe space that protects it, black and white versions, stacked and horizontal lockups, and a set of emblems cut from the same stone.</p>
+  </div>
+  <div class="mark-hero rv"><img src="img/logo.png" alt="Bareeq Almas logo in white"></div>
+  <div class="bf after rv" id="bf" role="img" aria-label="Animated summary of the Bareeq Almas logo: brand mark, clear space, lockups, emblem family and icons">
+    <div class="bf-sc blue" data-l="Brand mark" data-dark="1"><div class="bf-wrap"><span class="bf-logo"></span><span class="bf-shine"></span></div></div>
+    <div class="bf-sc" data-l="Clear space"><div class="bf-slide" style="--ar:1541/838"><img class="g" src="img/anim/safe-guides.png" alt=""><img class="k" src="img/anim/safe-ink.png" alt=""></div></div>
+    <div class="bf-sc" data-l="Lockups"><div class="bf-slide" style="--ar:2000/891"><img class="g" src="img/anim/lock-guides.png" alt=""><img class="k" src="img/anim/lock-ink.png" alt=""></div></div>
+    <div class="bf-sc" data-l="Emblem family"><div class="bf-row bf-em"><i style="--i:0;--x:0"></i><i style="--i:1;--x:1"></i><i style="--i:2;--x:2"></i><i style="--i:3;--x:3"></i><i style="--i:4;--x:4"></i><i style="--i:5;--x:5"></i></div></div>
+    <div class="bf-sc" data-l="Iconography"><div class="bf-ic"><i style="--i:0;--x:0"></i><i style="--i:1;--x:1"></i><i style="--i:2;--x:2"></i><i style="--i:3;--x:3"></i><i style="--i:4;--x:4"></i><i style="--i:5;--x:5"></i><i style="--i:6;--x:6"></i><i style="--i:7;--x:7"></i><i style="--i:8;--x:8"></i><i style="--i:9;--x:9"></i><i style="--i:10;--x:10"></i><i style="--i:11;--x:11"></i><i style="--i:12;--x:12"></i><i style="--i:13;--x:13"></i><i style="--i:14;--x:14"></i><i style="--i:15;--x:15"></i><i style="--i:16;--x:16"></i><i style="--i:17;--x:17"></i><i style="--i:18;--x:18"></i><i style="--i:19;--x:19"></i><i style="--i:20;--x:20"></i><i style="--i:21;--x:21"></i><i style="--i:22;--x:22"></i><i style="--i:23;--x:23"></i></div></div>
+    <div class="bf-sc blue" data-l="Bareeq Almas" data-dark="1"><div class="bf-end"><span class="bf-logo"></span></div></div>
+    <div class="bf-ui"><span class="lbl">Brand mark</span><span class="bar"><i></i></span><span class="n">01 / 06</span></div>
+  </div>
+  <div class="mk-grid after">
+    <figure class="rv"><div class="work"><img src="img/mark-wordmark.jpg" alt="The bilingual wordmark, outlined and inside its badge" loading="lazy"></div><figcaption class="cap s dim"><span>Wordmark</span></figcaption></figure>
+    <figure class="rv"><div class="work"><img src="img/mark-variations.jpg" alt="Logo variations with a fanned, butter-like emblem" loading="lazy"></div><figcaption class="cap s dim"><span>Variations</span></figcaption></figure>
+    <figure class="rv"><div class="work"><img src="img/mark-bw.jpg" alt="The brandmark in white on black and in black on white" loading="lazy"></div><figcaption class="cap s dim"><span>Black &amp; white</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">02 · Typography</span><h2 class="big">Classic meets clean</h2></div>
+    <p class="rv">A refined serif and a strong Arabic display face for headlines, with clean sans families for everything you read, so both languages share one premium voice.</p>
+  </div>
+  <div class="type-grid">
+    <figure class="rv"><div class="work"><img src="img/type-en-head.jpg" alt="The Seasons, English headline type" loading="lazy" width="1200" height="700"></div><figcaption class="cap s dim"><span>English · Headline</span><span>The Seasons</span></figcaption></figure>
+    <figure class="rv"><div class="work"><img src="img/type-ar-head.jpg" alt="HT Baybars, Arabic headline type" loading="lazy" width="1200" height="700"></div><figcaption class="cap s dim"><span>Arabic · Headline</span><span>HT Baybars</span></figcaption></figure>
+    <figure class="rv"><div class="work"><img src="img/type-en-body.jpg" alt="Acumin Variable Concept, English body type" loading="lazy" width="1200" height="700"></div><figcaption class="cap s dim"><span>English · Body</span><span>Acumin Variable Concept</span></figcaption></figure>
+    <figure class="rv"><div class="work"><img src="img/type-ar-body.jpg" alt="GE SS Two, Arabic body type" loading="lazy" width="1200" height="700"></div><figcaption class="cap s dim"><span>Arabic · Body</span><span>GE SS Two</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">03 · Colour</span><h2 class="big">Blue, gold and butter</h2></div>
+    <p class="rv">A diamond at the core and butter around it: royal blue, crimson and silver cut like facets, then golden amber, honey, sand and cerulean melting in to warm it up. The logo is approved on every one of them.</p>
+  </div>
+  <div class="rv">
+    <p class="gem-lbl"><span>Core · the diamond</span><span>Primary</span></p>
+    <div class="gem">
+      <div class="sw" style="--c:#293289;--d:0s"><i class="facet"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Brand</span><span>#293289</span></div><div class="bot"><b>Royal blue</b></div></div>
+      <div class="sw" style="--c:#BF1E41;--d:0.12s"><i class="facet"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Accent</span><span>#BF1E41</span></div><div class="bot"><b>Crimson</b></div></div>
+      <div class="sw lt" style="--c:#CFCFD1;--d:0.24s"><i class="facet"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Neutral</span><span>#CFCFD1</span></div><div class="bot"><b>Silver grey</b></div></div>
+    </div>
+    <p class="gem-lbl gem2-lbl"><span>Warmth · the butter</span><span>Secondary</span></p>
+    <div class="gem2">
+      <div class="sw lt" style="--c:#E3AD45;--d:0.36s"><i class="gloss"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Warm</span><span>#E3AD45</span></div><div class="bot"><b>Golden amber</b></div></div>
+      <div class="sw lt" style="--c:#F0D45E;--d:0.46s"><i class="gloss"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Warm</span><span>#F0D45E</span></div><div class="bot"><b>Soft honey</b></div></div>
+      <div class="sw lt" style="--c:#EBDAAD;--d:0.56s"><i class="gloss"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Warm</span><span>#EBDAAD</span></div><div class="bot"><b>Sand beige</b></div></div>
+      <div class="sw" style="--c:#4579C1;--d:0.66s"><i class="gloss"></i><i class="sheen"></i><span class="glint"><svg viewBox="0 0 24 24"><path d="M12 0c.6 6.2 5.8 11.4 12 12-6.2.6-11.4 5.8-12 12-.6-6.2-5.8-11.4-12-12C6.2 11.4 11.4.6 12 0z"/></svg></span><div class="top"><span>Cool</span><span>#4579C1</span></div><div class="bot"><b>Cerulean</b></div></div>
+    </div>
+  </div>
+  <div class="pair after">
+    <figure class="rv"><div class="logo-cycle" role="img" aria-label="The Bareeq Almas logo cycling through its nine approved colour combinations"><span class="lc-mark"></span><span class="lc-name s"></span></div></figure>
+    <figure class="rv"><div class="work"><img src="img/butter-yellow.jpg" alt="Butter Yellow colour card over whipped butter" loading="lazy" width="736" height="920"></div></figure>
+  </div>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">04 · Pattern</span><h2 class="big">Cut from the same stone</h2></div>
+    <p class="rv">The diamond repeats into patterns in yellow, crimson, cream and royal blue, for packs, bags, walls and backgrounds.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/patterns.jpg" alt="Six diamond patterns in yellow, crimson, cream and royal blue" loading="lazy" width="1700" height="811"></div></figure>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">05 · Iconography</span><h2 class="big">Drawn in one line</h2></div>
+    <p class="rv">Clean monoline icons inspired by baking and natural ingredients, from croissants to whisks, in the same royal blue as the mark.</p>
+  </div>
+  <figure class="rv icons-fig"><div class="work"><img src="img/icons.jpg" alt="Iconography: 24 monoline baking and ingredient icons in royal blue" loading="lazy" width="1162" height="782"></div></figure>
+</section>
+
+<section class="brand pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">06 · Illustration</span><h2 class="big">Engraved by hand</h2></div>
+    <p class="rv">A fine engraving style drawn from traditional printmaking: kitchens, bakes, palms and farmland in royal blue line, giving the brand craft, care and a sense of heritage.</p>
+  </div>
+  <figure class="rv"><div class="work"><img src="img/illustration.jpg" alt="Engraved illustrations: cooking in a pan, butter on bread, a sliced block, a croissant, palms over farmland with a butter curl, and hands kneading dough" loading="lazy" width="1866" height="789"></div></figure>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">07 · Packaging</span><h2 class="big">Blue on the shelf, gold inside</h2></div>
+    <p class="rv">Tubs and blocks in royal blue, wrapped in silver foil, with the engraved farmland running across every face and a golden butter curl at the centre.</p>
+  </div>
+  <div class="pk">
+    <figure class="rv big1"><div class="work"><img src="img/pk-tub-2.jpg" alt="Silver-lidded blue Bareeq Almas tub on blue with red satin" loading="lazy" width="765" height="571"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/pk-block-2.jpg" alt="Blue butter block with red satin" loading="lazy" width="684" height="511"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/pk-detail.jpg" alt="Close-up of the pack: BUTTER, premium quality and the golden curl" loading="lazy" width="536" height="397"></div></figure>
+  </div>
+  <div class="duo">
+    <figure class="rv"><div class="work"><img src="img/pk-row.jpg" alt="A row of blue blocks on red satin" loading="lazy" width="545" height="407"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/pk-foil.jpg" alt="The silver foil back of the block on red satin" loading="lazy" width="574" height="424"></div></figure>
+  </div>
+  <div class="duo after">
+    <figure class="rv"><div class="work"><img src="img/truck.jpg" alt="Delivery truck wrapped in the blue pack design" loading="lazy" width="1083" height="808"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/truck-back.jpg" alt="Rear doors of the truck with the brandmark" loading="lazy" width="791" height="588"></div></figure>
+  </div>
+  <figcaption class="cap s dim"><span>Packs &amp; fleet</span><span>Truck branding</span></figcaption>
+</section>
+
+<section class="dark pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">08 · Social</span><h2 class="big">Made to be tasted</h2></div>
+    <p class="rv">Close-up food on yellow and blue, a knife through a soft block, and a reveal from behind a red curtain, with the pack always in frame.</p>
+  </div>
+  <div class="phones-bg rv"><div class="phones" style="--n:3">
+    <div class="phone" data-ig="Bareeq Almas" data-screens="img/post-1.jpg" aria-label="Bareeq Almas post: a knife slicing a block on a cutting board"></div>
+    <div class="phone" data-ig="Bareeq Almas" data-screens="img/post-2.jpg" aria-label="Bareeq Almas post: the pack beside a brioche and butter slices"></div>
+    <div class="phone" data-ig="Bareeq Almas" data-screens="img/post-3.jpg" aria-label="Bareeq Almas post: the pack revealed on a tray from behind a red curtain"></div>
+  </div></div>
+</section>
+
+<section class="light pad phase">
+  <div class="ph-head">
+    <div class="rv"><span class="s dim no">09 · In the world</span><h2 class="big">From the aisle to the table</h2></div>
+    <p class="rv">A supermarket stand and hanging signs, shelf strips, a bakery bag, a recipe card and breakfast on yellow: the same diamond, every step of the way.</p>
+  </div>
+  <div class="bento">
+    <figure class="rv tall"><div class="work"><img src="img/stand.jpg" alt="Yellow and blue floor stand of Bareeq Almas packs in a supermarket aisle" loading="lazy" width="869" height="1079"></div></figure>
+    <figure class="rv" style="grid-column:span 2"><div class="work"><img src="img/toast.jpg" alt="The pack beside buttered toast and a knife on yellow" loading="lazy" width="1276" height="800"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/aisle.jpg" alt="Round hanging signs in blue, yellow and red above a supermarket aisle" loading="lazy" width="677" height="452"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/shelf.jpg" alt="Shelf display with a yellow arch and the line سرها في الأساس" loading="lazy" width="563" height="433"></div></figure>
+  </div>
+  <div class="duo after">
+    <figure class="rv"><div class="work"><img src="img/recipe.jpg" alt="Classic butter croissant recipe card with an engraved illustration" loading="lazy" width="734" height="911"></div></figure>
+    <figure class="rv"><div class="work"><img src="img/bag.jpg" alt="Yellow bakery bag with blue diamond print on blue" loading="lazy" width="771" height="434"></div></figure>
+  </div>
+</section>
+
+<section class="brand pad">
+  <div class="close">
+    <h2 class="big rv">Shine on<br>every shelf.</h2>
+    <p class="rv">One diamond, two colours and a hand-drawn heritage, from the delivery truck to the breakfast table.</p>
+  </div>
+  <figure class="close-img rv"><div class="work"><img src="img/emboss.jpg" alt="The Bareeq Almas logo embossed into soft yellow butter" loading="lazy" width="1376" height="768"></div></figure>
+</section>
+
+<footer class="pad next-wrap">
+  <a class="next" href="../ladeena/index.html">
+    <img class="tz" src="../ladeena/img/hero.jpg" alt="" loading="lazy">
+    <span class="s dim">Next brand</span>
+    <span class="big">Ladeena</span>
+  </a>
+</footer>
+</main>
+
+<div class="lb" id="lb" hidden><img alt=""><button type="button">Close</button></div>
+<script src="../case.js"></script>
+<script>
+(function(){var el=document.querySelector('.logo-cycle');if(!el)return;var nm=el.querySelector('.lc-name');
+var C=[['#293289','#ffffff','White on royal blue'],['#E3AD45','#ffffff','White on golden amber'],['#BF1E41','#EDEDED','Silver on crimson'],['#4F7BC4','#293289','Royal blue on cerulean'],['#D2D2D4','#293289','Royal blue on silver grey'],['#4F7BC4','#ffffff','White on cerulean'],['#293289','#E8C25A','Gold on royal blue'],['#ECD574','#293289','Royal blue on soft honey'],['#BF1E41','#F6D9DE','Blush on crimson']];
+var i=0;function set(){var c=C[i];el.style.setProperty('--lc-bg',c[0]);el.style.setProperty('--lc-fg',c[1]);nm.textContent=String(i+1).padStart(2,'0')+' / 09 · '+c[2]}
+set();var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+setInterval(function(){if(document.hidden)return;i=(i+1)%C.length;set()},reduce?4000:1800);})();
+</script>
+<script>
+(function(){var f=document.getElementById('bf');if(!f)return;var sc=[].slice.call(f.querySelectorAll('.bf-sc')),lbl=f.querySelector('.lbl'),n=f.querySelector('.n'),bar=f.querySelector('.bar i');
+  var D=[3200,3800,3300,3000,3800,3000],i=-1,t=null,vis=false,RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function show(k){i=k;sc.forEach(function(s,j){s.classList.toggle('on',j===k)});var s=sc[k];lbl.textContent=s.dataset.l;n.textContent=String(k+1).padStart(2,'0')+' / '+String(sc.length).padStart(2,'0');f.classList.toggle('dark',!!s.dataset.dark);
+    bar.style.transition='none';bar.style.transform='scaleX(0)';void bar.offsetWidth;if(!RM){bar.style.transition='transform '+D[k]+'ms linear';bar.style.transform='scaleX(1)'}
+    clearTimeout(t);if(!RM&&vis)t=setTimeout(function(){show((i+1)%sc.length)},D[k])}
+  if(RM){show(0);return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){vis=e.isIntersecting;if(vis){show(i<0?0:i)}else clearTimeout(t)})},{threshold:.35});io.observe(f);
+  f.addEventListener('click',function(){show((i+1)%sc.length)});
+  var pal=document.querySelectorAll('.gem,.gem2');if('IntersectionObserver' in window){var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.querySelectorAll('.sw').forEach(function(x){x.classList.add('in')});e.target.parentNode.classList.add('in');io2.unobserve(e.target)}})},{threshold:.25});pal.forEach(function(p){io2.observe(p)})}else pal.forEach(function(p){p.querySelectorAll('.sw').forEach(function(x){x.classList.add('in')})});
+})();
+</script>
+</body>
+</html>
