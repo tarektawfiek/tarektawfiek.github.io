@@ -2,7 +2,7 @@
    The homepage's type system (Inter Tight, 13px labels, heavy uppercase display) on black and white bands; the work runs full width, text stays short and sits above it */
 :root{
   --paper:#ffffff; --ink:#000000; --wall:#0b0b0b; --on-wall:#f2f2f2; --dim:#8a8a8a; --line:#e6e6e6; --line-d:#222;
-  --display:"Inter Tight","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --display:"Inter Tight","Noto Kufi Arabic","Helvetica Neue",Helvetica,Arial,sans-serif;
   --gl:max(16px,env(safe-area-inset-left,0px));
   --gr:max(16px,env(safe-area-inset-right,0px));
   --gt:calc(12px + env(safe-area-inset-top,0px));
