@@ -1,6 +1,6 @@
 # Tarek Tawfiek — Portfolio
 
-Senior Art Director portfolio. Live on GitHub Pages.
+Senior Art Director portfolio. Live at https://tarektawfiek.github.io
 
 ## Editing
 - Most text (projects, brands, songs, contact) lives in `content.json` — edit it on github.com and commit; the site updates in about a minute.
