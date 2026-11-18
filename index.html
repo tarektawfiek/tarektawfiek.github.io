@@ -551,14 +551,11 @@ body.hdr-hide .tl,body.hdr-hide .tc,body.hdr-hide .tr{opacity:0;translate:0 -10p
 .snd-head h2{font-size:clamp(44px,7vw,120px)}
 .snd-head a{color:var(--ink);border-bottom:1px solid var(--ink)}
 .snd-in{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(28px,4vw,72px);align-items:center;padding:0 var(--gr) 0 var(--gl)}
-.snd-stage{position:relative;aspect-ratio:1;width:100%}
+.snd-stage{position:relative;aspect-ratio:1;width:100%;cursor:crosshair;touch-action:pan-y}
 .snd-stage canvas{position:absolute;inset:0;width:100%;height:100%}
-.snd-disc{position:absolute;inset:16%;border-radius:50%;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.18);animation:sndSpin 18s linear infinite;animation-play-state:paused}
-.snd.playing .snd-disc{animation-play-state:running}
-.snd-disc img{width:100%;height:100%;object-fit:cover;display:block}
-.snd-disc:after{content:"";position:absolute;left:50%;top:50%;width:11%;height:11%;margin:-5.5% 0 0 -5.5%;border-radius:50%;background:var(--paper);box-shadow:0 0 0 2px var(--ink)}
-@keyframes sndSpin{to{transform:rotate(360deg)}}
-.snd-big{all:unset;position:absolute;left:50%;top:50%;width:60px;height:60px;margin:-30px 0 0 -30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;cursor:pointer;transition:transform .25s,opacity .3s;z-index:2}
+.snd-disc{position:absolute;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none}
+.snd-disc img{width:1px;height:1px}
+.snd-big{all:unset;position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;cursor:pointer;transition:transform .25s,opacity .3s;z-index:2;box-shadow:0 0 0 10px rgba(255,255,255,.9)}
 .snd-big:hover{transform:scale(1.06)}.snd-big:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
 .snd.playing .snd-big{opacity:0}.snd.playing .snd-stage:hover .snd-big{opacity:1}
 .snd-big svg{width:22px;height:22px}
@@ -589,8 +586,8 @@ body.hdr-hide .tl,body.hdr-hide .tc,body.hdr-hide .tr{opacity:0;translate:0 -10p
 .editing .snd-row{cursor:default}.editing .snd [data-k]{outline:1px dashed var(--edit);outline-offset:2px;min-width:2em}
 .snd .add-wrap{margin-top:12px}
 .snd-msg{font-size:12px;color:var(--warn);margin-top:8px;min-height:1em}
-@media (max-width:760px){.snd-in{grid-template-columns:1fr}.snd-stage{max-width:260px;justify-self:center}}
-@media (prefers-reduced-motion:reduce){.snd-disc{animation:none}}
+@media (max-width:760px){.snd-in{grid-template-columns:1fr}.snd-stage{max-width:320px;justify-self:center}}
+
 </style>
 
 <div id="root"></div>
@@ -1994,15 +1991,39 @@ body.hdr-hide .tl,body.hdr-hide .tc,body.hdr-hide .tr{opacity:0;translate:0 -10p
   function spTime(){var a=SP.a,u=SP.ui;if(!a||!u.fill)return;var d=a.duration||0,c=a.currentTime||0;u.fill.style.width=(d?c/d*100:0)+'%';u.cur.textContent=fmt(c);u.dur.textContent=d?fmt(d):((spTrack()||{}).dur||'0:00');if(u.prog)u.prog.setAttribute('aria-valuenow',Math.round(d?c/d*100:0))}
   function spPaint(){var t=spTrack(),u=SP.ui;if(!t||!u.ar)return;u.ar.textContent=t.ar||'';u.en.innerHTML='';var b=el('b','',u.en);b.textContent=t.en||'';u.en.appendChild(document.createTextNode(t.genre?'  ·  '+t.genre:''));u.disc.src=t.cover||'';u.disc.alt=(t.en||'')+' cover art';
     if(u.rows)u.rows.forEach(function(r,k){r.classList.toggle('on',k===SP.i);r.setAttribute('aria-current',k===SP.i?'true':'false')});spTime();spSync()}
-  function spLoop(){if(SP.raf)return;(function f(){SP.raf=0;var cv=SP.cv;if(!cv||!cv.isConnected)return;var on=SP.a&&!SP.a.paused;
-      var r=cv.getBoundingClientRect(),dpr=Math.min(2,window.devicePixelRatio||1),W=Math.round(r.width*dpr);if(cv.width!==W){cv.width=W;cv.height=W}
-      var g=cv.getContext('2d'),c=W/2,R0=W*.35,n=96,t=performance.now()/1000;g.clearRect(0,0,W,W);
-      if(SP.an&&on)SP.an.getByteFrequencyData(SP.data);
-      for(var k=0;k<n;k++){var v,m=k<n/2?k:n-k;if(SP.an&&on){var idx=Math.floor(Math.pow(m/(n/2),1.5)*(SP.data.length*.62));v=SP.data[idx]/255}else{v=.18+.12*Math.sin(t*1.4+k*.45)*Math.sin(t*.7+k*.13)}
-        var ang=k/n*Math.PI*2-Math.PI/2,len=W*(.012+v*.13),x1=c+Math.cos(ang)*R0,y1=c+Math.sin(ang)*R0,x2=c+Math.cos(ang)*(R0+len),y2=c+Math.sin(ang)*(R0+len);
-        g.strokeStyle='rgba(0,0,0,'+(.18+v*.82)+')';g.lineWidth=Math.max(1.5,W*.006);g.lineCap='round';g.beginPath();g.moveTo(x1,y1);g.lineTo(x2,y2);g.stroke()}
-      g.strokeStyle='rgba(0,0,0,.12)';g.lineWidth=1;g.beginPath();g.arc(c,c,R0-W*.012,0,Math.PI*2);g.stroke();
-      if(on||!SP.ctx||true)SP.raf=requestAnimationFrame(f)})()}
+  function spLoop(){if(SP.raf)return;
+    /* halftone: the cover art rebuilt from dots that breathe, ripple and part around the cursor */
+    var N=44,G=null,src='',mix=1,mix0=0,ptr={x:-9,y:-9},bass=0,rip=[],rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function sample(img){try{var o=document.createElement('canvas');o.width=o.height=N;var q=o.getContext('2d',{willReadFrequently:true});
+        var w=img.naturalWidth,h=img.naturalHeight,s=Math.min(w,h);q.drawImage(img,(w-s)/2,(h-s)/2,s,s,0,0,N,N);var d=q.getImageData(0,0,N,N).data,a=[];
+        for(var k=0;k<N*N;k++){var r=d[k*4],g=d[k*4+1],b=d[k*4+2],l=(.299*r+.587*g+.114*b)/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b);
+          if(mx<70){var f=70/Math.max(mx,1);r=Math.min(255,r*f+18);g=Math.min(255,g*f+18);b=Math.min(255,b*f+24)}
+          a.push({c:'rgb('+(r|0)+','+(g|0)+','+(b|0)+')',s:.28+.72*Math.min(1,Math.sqrt(l)*.85+(mx-mn)/255*.5),j:Math.random()})}return a}catch(e){return null}}
+    function onPtr(e){var r=SP.cv.getBoundingClientRect();ptr.x=(e.clientX-r.left)/r.width;ptr.y=(e.clientY-r.top)/r.height}
+    function offPtr(){ptr.x=ptr.y=-9}
+    (function f(){SP.raf=0;var cv=SP.cv;if(!cv||!cv.isConnected)return;var on=SP.a&&!SP.a.paused;
+      if(!cv._p){cv._p=1;var st=cv.parentNode;st.addEventListener('pointermove',onPtr);st.addEventListener('pointerleave',offPtr)}
+      var r=cv.getBoundingClientRect(),dpr=Math.min(2,window.devicePixelRatio||1),W=Math.round(r.width*dpr);if(W<2){SP.raf=requestAnimationFrame(f);return}if(cv.width!==W){cv.width=W;cv.height=W}
+      var img=SP.ui.disc,t=performance.now()/1000;
+      if(img&&img.complete&&img.naturalWidth&&img.currentSrc!==src){var a=sample(img);src=img.currentSrc;if(a){G=a;mix=0;mix0=t}}
+      if(mix<1)mix=Math.min(1,(t-mix0)/1.6);
+      var bands=null;if(SP.an&&on){SP.an.getByteFrequencyData(SP.data);bands=SP.data}
+      var lo=0;if(bands){for(var k=1;k<6;k++)lo+=bands[k];lo/=5*255}
+      if(bands&&lo>bass+.09&&lo>.55&&(!rip.length||t-rip[rip.length-1]>.28))rip.push(t);bass=bass*.9+lo*.1;
+      while(rip.length&&t-rip[0]>1.6)rip.shift();
+      var g=cv.getContext('2d');g.clearRect(0,0,W,W);
+      if(!G){if(img&&img.naturalWidth)try{g.drawImage(img,0,0,W,W)}catch(e){}SP.raf=requestAnimationFrame(f);return}
+      var s=W/N,h=s/2;
+      for(var y=0;y<N;y++)for(var x=0;x<N;x++){var p=G[y*N+x],cx=(x+.5)/N,cy=(y+.5)/N,dx=cx-.5,dy=cy-.5,d=Math.sqrt(dx*dx+dy*dy)/.7071;
+        var e=Math.max(0,Math.min(1,(mix*1.9-d-p.j*.25)/.6));if(e<=0)continue;e=e*e*(3-2*e);
+        var v;if(bands){v=bands[Math.min(bands.length-1,Math.floor(Math.pow(d,1.3)*bands.length*.6))]/255;v=.55+v*.75}
+        else v=rm?1:.9+.1*Math.sin(t*1.6-d*9);
+        for(var q=0;q<rip.length;q++){var age=(t-rip[q])/1.6,w=d-age*1.4;if(w>-.12&&w<.12)v+=(1-age)*.55*Math.cos(w/.12*Math.PI/2)}
+        var px=cx*W,py=cy*W,mx_=cx-ptr.x,my_=cy-ptr.y,md=Math.sqrt(mx_*mx_+my_*my_);
+        if(md<.16){var k2=1-md/.16;k2*=k2;v*=1-.75*k2;px+=mx_/(md||1)*k2*s*2.2;py+=my_/(md||1)*k2*s*2.2}
+        var rad=h*p.s*v*e;if(rad<.35)continue;if(rad>h*1.08)rad=h*1.08;
+        g.fillStyle=p.c;g.beginPath();g.arc(px,py,rad,0,6.2832);g.fill()}
+      SP.raf=requestAnimationFrame(f)})()}
   var audioIn=document.createElement('input');audioIn.type='file';audioIn.accept='audio/*,video/mp4,.m4a,.mp3';audioIn.hidden=true;document.body.appendChild(audioIn);var audioCb=null;
   audioIn.addEventListener('change',async function(){var f=audioIn.files&&audioIn.files[0];if(!f||!audioCb)return;var msg=document.querySelector('.snd-msg');if(msg)msg.textContent='Uploading '+f.name+'…';
     try{if(!assetsNS)throw {code:'no_assets'};var r=await assetsNS.upload(f);audioCb('/_blob/'+r.id,f);markDirty();render()}
